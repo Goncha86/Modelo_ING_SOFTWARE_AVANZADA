@@ -1,4 +1,5 @@
-#Wed Nov 15 18:52:35 CET 2023
+#Wed Nov 15 18:56:12 CET 2023
+org.modelio.app.diagram.editor.OpenedDiagrams3='Model Class diagram' {ca193bf8-6a19-4708-9fb9-10acb0a2bcb4} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams2='Modificar plan de vuelo' {cbd84502-f985-4b90-ae0e-286d3892897f} Standard.ActivityDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='Dar de alta a un dron' {10bf57b1-7e1a-4302-b8b2-677273c1474a} Standard.ActivityDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='Programar vuelo de drones' {357c5e4c-2816-4967-a1bf-71e0365dfd8b} Standard.ActivityDiagram
