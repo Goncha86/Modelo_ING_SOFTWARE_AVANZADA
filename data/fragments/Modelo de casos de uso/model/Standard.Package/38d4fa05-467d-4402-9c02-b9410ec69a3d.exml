@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DIAGRAMAS DE ACTIVIDAD" version="4">
+  <OBJECT>
+    <ID name="DIAGRAMAS DE ACTIVIDAD" mc="Standard.Package" uid="38d4fa05-467d-4402-9c02-b9410ec69a3d"/>
+    <PID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DIAGRAMAS DE ACTIVIDAD]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Programar vuelo de drones" mc="Standard.Activity" uid="236e1218-0335-4733-88f9-7273695cac21"/>
+        <COMPID name="Modificar plan de vuelo" mc="Standard.Activity" uid="67e06295-16bc-461a-b64e-49900073742d"/>
+        <COMPID name="Dar de alta a un dron" mc="Standard.Activity" uid="87f02c1a-e915-442f-ba38-666534f749db"/>
+        <COMPID name="Validar usuario" mc="Standard.Activity" uid="daac9a1e-1e5f-4884-99dc-8d69aea9e1e8"/>
+        <COMPID name="Modificar informes generados por la IA" mc="Standard.Activity" uid="53f989de-e468-489c-b4ee-8cd5b48d8536"/>
+        <COMPID name="Crear cliente" mc="Standard.Activity" uid="1cf8f9be-ef35-447e-a196-476832d8be02"/>
+        <COMPID name="Editar cliente" mc="Standard.Activity" uid="3d3dab37-a26b-4c05-b4cc-03c089a647f5"/>
+        <COMPID name="Registrar pedido" mc="Standard.Activity" uid="69fb28c3-46d6-4254-836f-25394c1e6497"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

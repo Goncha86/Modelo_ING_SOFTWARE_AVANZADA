@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo de casos de uso" version="4">
+  <OBJECT>
+    <ID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Modelo de casos de uso]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="DIAGRAMAS DE ACTIVIDAD" mc="Standard.Package" uid="38d4fa05-467d-4402-9c02-b9410ec69a3d"/>
+        <COMPID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Modelo de casos de uso" mc="Infrastructure.DiagramSet" uid="767584a4-b784-4e7a-931b-136744f95250"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

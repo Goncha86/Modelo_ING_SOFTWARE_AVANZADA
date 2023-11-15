@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Secretario" version="4">
+  <OBJECT>
+    <ID name="Secretario" mc="Standard.Package" uid="6948fcab-6045-4faf-a7b9-7a6513804305"/>
+    <PID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Secretario]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Secretario" mc="Standard.Actor" uid="5a6bd054-8be4-4a12-ab4a-bab39b7eab73"/>
+        <COMPID name="Consultar cliente" mc="Standard.UseCase" uid="d23f3206-6d8c-4009-b6f7-be8f7ea4e1d3"/>
+        <COMPID name="Consultar pedido" mc="Standard.UseCase" uid="fafe10e9-d447-43ca-af48-da8fe35cd8b5"/>
+        <COMPID name="Validar usuario" mc="Standard.UseCase" uid="301604db-5844-4d63-9b31-4d773ec5011b"/>
+        <COMPID name="Cambiar estado de pago" mc="Standard.UseCase" uid="3b06dd6b-415e-4dc3-8b5b-c30bc0ed67af"/>
+        <COMPID name="Sacar informes" mc="Standard.UseCase" uid="dc02d2d6-5049-4ac9-8d4b-4f6a6d2610ac"/>
+        <COMPID name="Adjuntar justificante de pago" mc="Standard.UseCase" uid="b2ebfc52-6db3-4652-b4b2-82d59f628619"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Secretario" mc="Standard.UseCaseDiagram" uid="3e87c92a-306c-4d07-b821-f5d586f99fff"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

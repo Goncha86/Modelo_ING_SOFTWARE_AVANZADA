@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CASOS DE USO" version="4">
+  <OBJECT>
+    <ID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+    <PID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CASOS DE USO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Analista" mc="Standard.Package" uid="cb823876-955b-4c28-800b-63428f72fbb4"/>
+        <COMPID name="Agronomo" mc="Standard.Package" uid="9862a01d-a7c9-4af3-b8a0-6052ae44cbcd"/>
+        <COMPID name="IA" mc="Standard.Package" uid="35072c0b-c631-466b-9182-eea2cd327f72"/>
+        <COMPID name="Comercial" mc="Standard.Package" uid="92bc4aad-7c07-4090-b267-6a5a9a1a79f2"/>
+        <COMPID name="Secretario" mc="Standard.Package" uid="6948fcab-6045-4faf-a7b9-7a6513804305"/>
+        <COMPID name="Controladora" mc="Standard.Package" uid="b3f6fe50-0745-4b76-a1f3-3cccd622340e"/>
+        <COMPID name="Todos" mc="Standard.Package" uid="665f036e-90e9-4f94-bc41-ca16a7331f8a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

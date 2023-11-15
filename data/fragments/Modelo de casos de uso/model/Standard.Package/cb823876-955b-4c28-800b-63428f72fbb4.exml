@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Analista" version="4">
+  <OBJECT>
+    <ID name="Analista" mc="Standard.Package" uid="cb823876-955b-4c28-800b-63428f72fbb4"/>
+    <PID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Analista]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Analista" mc="Standard.Actor" uid="0f82da88-9c5c-45d2-9370-2aa7cd88b245"/>
+        <COMPID name="Creación de usuario" mc="Standard.UseCase" uid="91e97708-b2bb-498d-9fb9-ce0dec1fc2d4"/>
+        <COMPID name="Revisar resultados procesamiento IA" mc="Standard.UseCase" uid="f9e783df-995f-4184-822b-b8053d7e71b9"/>
+        <COMPID name="Edición de usuario" mc="Standard.UseCase" uid="400f496d-62e4-4248-a9ae-f57665e23cec"/>
+        <COMPID name="Eliminación de usuario" mc="Standard.UseCase" uid="c2decba4-d2e6-4959-a5dc-b94527eb4bd9"/>
+        <COMPID name="Modificar informes generados IA" mc="Standard.UseCase" uid="0c3190ad-bf5c-4a47-904a-e9ad478128af"/>
+        <COMPID name="Enviar Email" mc="Standard.UseCase" uid="b840f28f-f2a2-40ac-b3a5-5fd865f1e523"/>
+        <COMPID name="Realimentar IA" mc="Standard.UseCase" uid="760699cc-5c2b-42d4-9fa0-ca06ee0d3cba"/>
+        <COMPID name="Consultar imagenes drones" mc="Standard.UseCase" uid="66a237ee-39e1-4e0c-8abe-9b23322aa99a"/>
+        <COMPID name="Notificar clientes" mc="Standard.UseCase" uid="60344d52-ba0c-42ce-9215-ff530f6202fa"/>
+        <COMPID name="Exportar informes nube" mc="Standard.UseCase" uid="4b9d2ff7-0573-4fa6-a9bc-ef5973a45aae"/>
+        <COMPID name="Validar usuario" mc="Standard.UseCase" uid="ca63039b-9fb4-4a04-830c-9f3365c5ebc0"/>
+        <COMPID name="Consultar usuario" mc="Standard.UseCase" uid="541b08d9-baff-4198-acb0-eb361ccb8e2a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Analista Use Case diagram" mc="Standard.UseCaseDiagram" uid="e8452824-67eb-42c4-a58e-1fb73fe5d087"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

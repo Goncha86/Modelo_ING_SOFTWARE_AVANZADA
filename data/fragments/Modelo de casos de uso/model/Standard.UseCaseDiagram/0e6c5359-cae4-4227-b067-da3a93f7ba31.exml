@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IA Use Case diagram" version="4">
+  <OBJECT>
+    <ID name="IA Use Case diagram" mc="Standard.UseCaseDiagram" uid="0e6c5359-cae4-4227-b067-da3a93f7ba31"/>
+    <PID name="IA" mc="Standard.Package" uid="35072c0b-c631-466b-9182-eea2cd327f72"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">162</ATT>
+      <ATT name="UiData"><![CDATA[eJztWl1zmzoQ/SsMc1+DbcjHzR0nHQyuy4SYDjjp9L54ZNg4NAJlhNyYf1/hj0xMqEMcAnGrJzMSOruSzq7OCnc/zSMs/QSahCQ+kztKW5Y+nXedyQ/wmRQGvEmWWHoPZzKhUyUiAeCQKLMIK7MEfJRAEKIpRZHCHxihCmCIIGZJvnsQXSVg8AZz2SBLEfpB6PjRdFs+736l5B4oS6UYRdwiRimZMRMxxPuuEZ7BypV4hrHcOu+21gOeDfVYikHemIhaNJG1e0n2fqL4hIKyHFvCPz4dHwUQrI3158yFm5JWhhxiNVKCOTMnFvdx8Zg9XC5HSpoy3z5R3fMcY+x9cb4Zumvm1qlHCAYUy9LPrPFMvkE4gbJ4rmP3vQoAe97I1Y3R2LT0gatfjq+t/reBa73kK6Oz0q4O9WtroPcs2xp9r2oJDGc47Bsjyxm6ztWo7+Zw+/Es+q8Uky4g/ccgccx5yInkckYDtYJHh0zL5WbKztTWe317hym2loGwzQgFjBgEnME5/MusaQ3uMRQHiAbKZjhLbTj2j7Sj0wMfweHBoaqeHEzaxycHAdLQqXZzMkFaZ/skMUrYRUweYhtNAOd88BgN46l8bukSNyxllqXVindbixe3To0vkBUbJLonSZjtwm/QS0AZtyEOKGQIdpiwjQyj7ZgqkzRhkKVIb/FQf2o8fPfUmOXFZRL+U3n5cWh4tG03H0nnkygisXILfJso554JN2iG2eLg6S9f+rLoq5+Ox2XpyKHm6Zs5eSg4+TInlzwpAZjckodx6D8D2uEgXkDdQfpAaFABGkP+3ZgnWArkzdpj4RouWPwSUI/8ekL5k2qOjs8U4H8SlwqHamP2XxGzHy5mJyRIdzlLWqufouV91pUDWzNRWe1qzjUrZjDNzpTVcufXrCg2TvdVVnXaQld9pHh4o67qFF6F7JOw6pS+A6kmS/MAELQU0qpZadWpqCxvTlt1StfnImyFunqluuoUXhfshbwqfU8g5NU+yKvCGniv5FXNRTAPAEFLIa8allcVlefNySu1dJkuwlbIq1fKK3XX/080Lq/U9//DhJBX9ckrtbAM3id5pdZcBquClkJeNS2v1IrK8wblVc2f80XY/k3yqqIP5w2ERenLAiGv9kFeFZbB+ySvtJrLYB4AgpZCXjUrr7SKyvPm5JVW8zd9EbZ/urx60ZAdxnfJFpdzr/emJkUPfFlslHL7m+wtdysRLAESBWcQ2bn5FLGemHvdqKYpH+Yz95qZ5kCx9e99d9zTjYuB61wNzaqJ+luUp7uWFKkobesVj6DDO9Jh5HytP2FtzvONiesXFqzd/g==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[IA Use Case diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="IA" mc="Standard.Package" uid="35072c0b-c631-466b-9182-eea2cd327f72"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="44f62228-3f73-4cb4-a656-094ce781922d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

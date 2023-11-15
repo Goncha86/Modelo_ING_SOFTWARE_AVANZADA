@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IA" version="4">
+  <OBJECT>
+    <ID name="IA" mc="Standard.Package" uid="35072c0b-c631-466b-9182-eea2cd327f72"/>
+    <PID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[IA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="IA Use Case diagram" mc="Standard.UseCaseDiagram" uid="0e6c5359-cae4-4227-b067-da3a93f7ba31"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

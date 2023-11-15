@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Agronomo" version="4">
+  <OBJECT>
+    <ID name="Agronomo" mc="Standard.Package" uid="9862a01d-a7c9-4af3-b8a0-6052ae44cbcd"/>
+    <PID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Agronomo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Agronomo" mc="Standard.Actor" uid="8e4bbb0d-8947-42e6-ba50-6fefdb5d4006"/>
+        <COMPID name="Revisar resultados procesamiento IA" mc="Standard.UseCase" uid="649a3d72-098e-4d4a-a8e6-8daf08e8616d"/>
+        <COMPID name="Validar usuario" mc="Standard.UseCase" uid="3b6ab2ed-fdbd-401b-bb06-df02c2949bd3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Agronomo Use Case diagram" mc="Standard.UseCaseDiagram" uid="0f48da1c-d62f-4c0e-9702-85cb641bb84d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Todos" version="4">
+  <OBJECT>
+    <ID name="Todos" mc="Standard.Package" uid="665f036e-90e9-4f94-bc41-ca16a7331f8a"/>
+    <PID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Todos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Todos" mc="Standard.Actor" uid="81c96377-1257-46af-bb2c-6ee88f11b976"/>
+        <COMPID name="Cambiar idioma" mc="Standard.UseCase" uid="4a8edc24-57cf-4d7c-9bd0-bc5371203732"/>
+        <COMPID name="Consultar el informe generado por la IA" mc="Standard.UseCase" uid="403cc89c-c10e-47a2-9f59-06d17edaa62b"/>
+        <COMPID name="Consultar cliente" mc="Standard.UseCase" uid="1bab14cc-efb6-40e9-b56f-43a51bd3b5d7"/>
+        <COMPID name="Consultar pedido" mc="Standard.UseCase" uid="9d6d10e0-63c5-4d11-bc04-8286df286d50"/>
+        <COMPID name="Consultar informe IA" mc="Standard.UseCase" uid="d4a39f6a-2970-463b-b207-f936aa894b70"/>
+        <COMPID name="Consultar imgenes drones" mc="Standard.UseCase" uid="7c0243fd-21c0-4c1c-a838-32fbd4477730"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Todos Use Case diagram" mc="Standard.UseCaseDiagram" uid="71f89d24-0336-4833-8724-c40457b474d1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
