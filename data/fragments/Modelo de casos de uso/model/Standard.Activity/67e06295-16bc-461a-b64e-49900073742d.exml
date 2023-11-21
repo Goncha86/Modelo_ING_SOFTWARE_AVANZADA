@@ -31,7 +31,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Se selecciona un plan de vuelo" mc="Standard.OpaqueAction" uid="522df7be-5d25-478b-9607-00dc7f84f365"/>
+                      <ID name="Se selecciona un plan de vuelo." mc="Standard.OpaqueAction" uid="522df7be-5d25-478b-9607-00dc7f84f365"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -40,12 +40,12 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Se selecciona un plan de vuelo" mc="Standard.OpaqueAction" uid="522df7be-5d25-478b-9607-00dc7f84f365"/>
+          <ID name="Se selecciona un plan de vuelo." mc="Standard.OpaqueAction" uid="522df7be-5d25-478b-9607-00dc7f84f365"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
             <ATT name="IsCompensation">false</ATT>
-            <ATT name="Name"><![CDATA[Se selecciona un plan de vuelo]]></ATT>
+            <ATT name="Name"><![CDATA[Se selecciona un plan de vuelo.]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
