@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Consultar cliente" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Validar usuario" version="4">
   <OBJECT>
-    <ID name="Consultar cliente" mc="Standard.UseCase" uid="1bab14cc-efb6-40e9-b56f-43a51bd3b5d7"/>
+    <ID name="Validar usuario" mc="Standard.UseCase" uid="c6ff924f-71f8-46d5-befc-9138c6bd0e07"/>
     <PID name="Todos" mc="Standard.Package" uid="665f036e-90e9-4f94-bc41-ca16a7331f8a"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,34 +9,15 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Consultar cliente]]></ATT>
+      <ATT name="Name"><![CDATA[Validar usuario]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="Used">
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="120b5688-e416-43ba-8840-bad7dc1e5f07"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Validar usuario" mc="Standard.UseCase" uid="c6ff924f-71f8-46d5-befc-9138c6bd0e07"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="2343bb03-a970-4c52-b76d-76832f7b810e"/>
+          <ID name="" mc="Infrastructure.Note" uid="8b31b6fb-0f15-41cf-bc5c-417a06f3342f"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Prioridad: alta
-Descripción: se puede consultar  la información de los clientes
-RF2, RF14, RF15, RF16]]></ATT>
+            <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -48,7 +29,7 @@ RF2, RF14, RF15, RF16]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="a40e864d-269c-40c2-a2a8-abf17dca9a9d"/>
+          <ID name="" mc="Infrastructure.Note" uid="844091bf-9491-4da5-8096-1f20e24025b9"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -62,7 +43,7 @@ RF2, RF14, RF15, RF16]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="dbcee871-b4ed-4449-ba75-8063209aebb1"/>
+          <ID name="" mc="Infrastructure.Note" uid="202f4491-ded1-4275-850e-a491bddff3a9"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -76,7 +57,7 @@ RF2, RF14, RF15, RF16]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="c012122f-2d75-417e-8ed4-4963fb34196b"/>
+          <ID name="" mc="Infrastructure.Note" uid="fcaf5447-39e5-49f7-b481-ad355ea2664e"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -90,7 +71,7 @@ RF2, RF14, RF15, RF16]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="c72bf258-d51a-4790-9eec-0c311853a9c0"/>
+          <ID name="" mc="Infrastructure.Note" uid="929c4829-5b41-4c5f-bdb1-9e314d72a9ae"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -104,7 +85,7 @@ RF2, RF14, RF15, RF16]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="8af87d3a-3fa4-499d-8780-0c6d5aa9801c"/>
+          <ID name="" mc="Infrastructure.Note" uid="2d05a5db-e6c7-4ba8-9ea5-613b7180be31"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

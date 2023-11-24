@@ -16,6 +16,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="Cliente" mc="Standard.Actor" uid="cf299525-9344-4428-87ce-09fc9060b1e6"/>
         <COMPID name="Consultar carpeta en la Nube" mc="Standard.UseCase" uid="1fb3b4b1-033d-46d4-97d2-a4f2eca325b0"/>
+        <COMPID name="Validar usuario" mc="Standard.UseCase" uid="d94bd289-8ada-441a-a7d8-741654f3f7e2"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Cliente Use Case diagram" mc="Standard.UseCaseDiagram" uid="366f335a-33fe-4996-a24b-69e15fcda5ac"/>
