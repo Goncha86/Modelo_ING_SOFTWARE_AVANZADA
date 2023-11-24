@@ -24,6 +24,7 @@
         <COMPID name="Validar usuario" mc="Standard.UseCase" uid="0406db88-2323-484f-aa19-37b8e3f4d699"/>
         <COMPID name="Recuperar imagenes y metadatos" mc="Standard.UseCase" uid="8fc8d62f-7766-4e22-a622-2c24b207d1f3"/>
         <COMPID name="Generar tiempo entre fotos" mc="Standard.UseCase" uid="f2e1c06c-cc86-4080-b324-03c786c81f0e"/>
+        <COMPID name="CU41-Exportar XML" mc="Standard.UseCase" uid="ee09eaba-5cea-4e99-8658-8076cfe846f6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Controladora" mc="Standard.UseCaseDiagram" uid="d7edb8fd-fbf8-4491-8cd8-73f423ab7cab"/>
