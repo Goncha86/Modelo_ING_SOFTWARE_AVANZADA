@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="2c209b55-5022-4a46-b4f4-6283a218fa2c"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Comercial" mc="Standard.Actor" uid="9c641fb2-f500-4d3e-8c41-b9a1c8456061"/>
         <COMPID name="Crear cliente" mc="Standard.UseCase" uid="f2e443f6-785f-4208-8bf7-6fec542bbe30"/>
