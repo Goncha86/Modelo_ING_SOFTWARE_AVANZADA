@@ -92,7 +92,7 @@ RF2, RF13]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="26e2469a-db7d-4e2b-84ab-71b579ea6e73"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. El actor que realiza la función debe de tener los permisos necesarios]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -106,7 +106,7 @@ RF2, RF13]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="8f84ca07-2418-4a11-8fe6-6654460709cf"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
