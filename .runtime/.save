@@ -1,10 +1,2 @@
-#Fri Nov 24 18:42:14 CET 2023
-org.modelio.app.diagram.editor.OpenedDiagrams4='Agronomo Use Case diagram' {0f48da1c-d62f-4c0e-9702-85cb641bb84d} Standard.UseCaseDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams3='IA Use Case diagram' {0e6c5359-cae4-4227-b067-da3a93f7ba31} Standard.UseCaseDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Edici\u00F3n de cliente' {50408fd7-72a8-44a9-a5a9-8b19ae592827} Standard.SequenceDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams1='Crear cliente' {3a874d42-7ab5-4aec-93de-96035067d84e} Standard.SequenceDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='Creaci\u00F3n de clientes' {fd4e24e8-e8a8-4e5a-893f-f2cc202a6b33} Standard.ActivityDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams8='Todos Use Case diagram' {71f89d24-0336-4833-8724-c40457b474d1} Standard.UseCaseDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams7='Controladora' {d7edb8fd-fbf8-4491-8cd8-73f423ab7cab} Standard.UseCaseDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams6='Cliente Use Case diagram' {366f335a-33fe-4996-a24b-69e15fcda5ac} Standard.UseCaseDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams5='Comercial' {d68ebd73-8fda-46a1-a327-486c747af8a4} Standard.UseCaseDiagram
+#Sat Nov 25 16:52:43 CET 2023
+org.modelio.app.diagram.editor.OpenedDiagrams0='Secretario' {3e87c92a-306c-4d07-b821-f5d586f99fff} Standard.UseCaseDiagram

@@ -1,28 +1,28 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sacar informes de clientes" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sacar informe de Pedidos e Impagos" version="4">
   <OBJECT>
-    <ID name="Sacar informes de clientes" mc="Standard.UseCase" uid="dc02d2d6-5049-4ac9-8d4b-4f6a6d2610ac"/>
-    <PID name="Secretario" mc="Standard.Package" uid="6948fcab-6045-4faf-a7b9-7a6513804305"/>
+    <ID name="Sacar informe de Pedidos e Impagos" mc="Standard.UseCase" uid="ccbc75a0-f405-44dc-bcb9-58d5298947ae"/>
+    <PID name="Comercial" mc="Standard.Package" uid="92bc4aad-7c07-4090-b267-6a5a9a1a79f2"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sacar informes de clientes]]></ATT>
+      <ATT name="Name"><![CDATA[Sacar informe de Pedidos e Impagos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="d306b532-acca-480f-8c1a-4ad800f0c781"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="5dc320e6-da80-4820-a3d2-030bb1f1d48c"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Consultar pedido" mc="Standard.UseCase" uid="fafe10e9-d447-43ca-af48-da8fe35cd8b5"/>
+              <ID name="Consultar pedido" mc="Standard.UseCase" uid="cd20a3b1-e9a4-479a-b1ce-d00a92efb59c"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
@@ -32,11 +32,14 @@
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="4c3542e5-fcaa-4b92-89f5-1fe2f9d083ea"/>
+          <ID name="" mc="Infrastructure.Note" uid="aafe1b0e-694c-4259-aa0a-8b87fd08272e"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Prioridad: media
-Descripción: el comercial y el secretario podrán sacar el informe de un cliente
-RF19, RF27]]></ATT>
+            <ATT name="Content"><![CDATA[Prioridad alta
+Descripción: El comercial y el secretario podrán sacar un informe con todos 
+los pedidos e impagos  que se hayan realizado.
+RF42
+
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -48,7 +51,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="5f340a82-d61f-493d-9cf3-f6d8cd5a52ca"/>
+          <ID name="" mc="Infrastructure.Note" uid="a6427ab1-64f1-4392-8ce0-3f5ee27d3d9a"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -62,7 +65,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="94e86763-5451-47a4-b02e-476350838c12"/>
+          <ID name="" mc="Infrastructure.Note" uid="0367069b-3673-4fa8-959b-c53c5cd3f6e9"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -76,7 +79,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="bb4449a2-ab4c-4f62-83ae-2f21d58ba9a1"/>
+          <ID name="" mc="Infrastructure.Note" uid="12b5834b-f3cb-4bac-bed2-01143e3bca16"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -90,7 +93,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="d23e6afe-f522-479a-bb60-0eb37085bb63"/>
+          <ID name="" mc="Infrastructure.Note" uid="a232dd67-ce92-422e-8437-40241ae8d64d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -104,7 +107,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="fa7627fc-59c2-41b6-896d-f2171b114947"/>
+          <ID name="" mc="Infrastructure.Note" uid="2f322909-8ecf-4173-9a9b-c45885a9b6ae"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

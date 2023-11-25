@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Comercial" version="4">
   <OBJECT>
     <ID name="Comercial" mc="Standard.Actor" uid="9c641fb2-f500-4d3e-8c41-b9a1c8456061"/>
-    <PID name="Package" mc="Standard.Package" uid="92bc4aad-7c07-4090-b267-6a5a9a1a79f2"/>
+    <PID name="Comercial" mc="Standard.Package" uid="92bc4aad-7c07-4090-b267-6a5a9a1a79f2"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

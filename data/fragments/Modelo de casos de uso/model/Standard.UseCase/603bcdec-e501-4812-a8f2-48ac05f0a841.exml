@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sacar informes de clientes" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sacar informe de Pedidos e Impagos" version="4">
   <OBJECT>
-    <ID name="Sacar informes de clientes" mc="Standard.UseCase" uid="dc02d2d6-5049-4ac9-8d4b-4f6a6d2610ac"/>
+    <ID name="Sacar informe de Pedidos e Impagos" mc="Standard.UseCase" uid="603bcdec-e501-4812-a8f2-48ac05f0a841"/>
     <PID name="Secretario" mc="Standard.Package" uid="6948fcab-6045-4faf-a7b9-7a6513804305"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sacar informes de clientes]]></ATT>
+      <ATT name="Name"><![CDATA[Sacar informe de Pedidos e Impagos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="d306b532-acca-480f-8c1a-4ad800f0c781"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="142ef202-5b96-489f-b917-029f45af84f5"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -32,11 +32,12 @@
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="4c3542e5-fcaa-4b92-89f5-1fe2f9d083ea"/>
+          <ID name="" mc="Infrastructure.Note" uid="a34787a6-0a1a-41b4-a232-120f56047b81"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Prioridad: media
-Descripción: el comercial y el secretario podrán sacar el informe de un cliente
-RF19, RF27]]></ATT>
+            <ATT name="Content"><![CDATA[Prioridad alta
+Descripción: El comercial y el secretario podrán sacar un informe con todos 
+los pedidos e impagos  que se hayan realizado.
+RF42]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -48,7 +49,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="5f340a82-d61f-493d-9cf3-f6d8cd5a52ca"/>
+          <ID name="" mc="Infrastructure.Note" uid="3a53b81e-3344-465e-b540-f11734c9476e"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -62,7 +63,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="94e86763-5451-47a4-b02e-476350838c12"/>
+          <ID name="" mc="Infrastructure.Note" uid="cb86cf14-e223-44d2-a801-b0c61e6d2107"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -76,7 +77,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="bb4449a2-ab4c-4f62-83ae-2f21d58ba9a1"/>
+          <ID name="" mc="Infrastructure.Note" uid="fbf25a3e-543e-4302-bf13-57c76d58f401"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -90,7 +91,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="d23e6afe-f522-479a-bb60-0eb37085bb63"/>
+          <ID name="" mc="Infrastructure.Note" uid="0dbf617f-3a86-43e5-9fb6-2b045e3b9454"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -104,7 +105,7 @@ RF19, RF27]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="fa7627fc-59c2-41b6-896d-f2171b114947"/>
+          <ID name="" mc="Infrastructure.Note" uid="1da59ae0-1b6f-454d-921a-5fde7b5d9ccd"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

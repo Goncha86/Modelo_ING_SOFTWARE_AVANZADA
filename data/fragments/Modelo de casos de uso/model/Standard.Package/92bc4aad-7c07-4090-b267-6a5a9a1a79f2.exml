@@ -31,9 +31,10 @@
         <COMPID name="Aplicar descuento" mc="Standard.UseCase" uid="f16ebd0a-df3d-489d-aa4e-0c02e4455844"/>
         <COMPID name="Calcular precio" mc="Standard.UseCase" uid="6600a489-1fe7-4f25-aff4-e024ea214841"/>
         <COMPID name="Cambiar estado de pago" mc="Standard.UseCase" uid="daf9c20f-7ced-401a-a56e-98a126b87108"/>
-        <COMPID name="Sacar informes" mc="Standard.UseCase" uid="631ce85b-b270-42c0-946b-94fb60b3bfb7"/>
+        <COMPID name="Sacar informes de clientes" mc="Standard.UseCase" uid="631ce85b-b270-42c0-946b-94fb60b3bfb7"/>
         <COMPID name="Eliminar pedido" mc="Standard.UseCase" uid="d5dc5530-5e89-4223-8794-e1a3e05df94f"/>
         <COMPID name="Generar pago" mc="Standard.UseCase" uid="0d5fee53-f720-4650-99d4-685722c472e3"/>
+        <COMPID name="Sacar informe de Pedidos e Impagos" mc="Standard.UseCase" uid="ccbc75a0-f405-44dc-bcb9-58d5298947ae"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Comercial" mc="Standard.UseCaseDiagram" uid="d68ebd73-8fda-46a1-a327-486c747af8a4"/>
