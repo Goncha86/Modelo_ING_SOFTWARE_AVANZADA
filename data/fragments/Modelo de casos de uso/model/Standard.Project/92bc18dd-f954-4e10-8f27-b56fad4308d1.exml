@@ -12,6 +12,7 @@
       <COMP relation="Model">
         <COMPID name="DIAGRAMAS DE ACTIVIDAD" mc="Standard.Package" uid="38d4fa05-467d-4402-9c02-b9410ec69a3d"/>
         <COMPID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
+        <COMPID name="Model" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="Modelo de casos de uso" mc="Infrastructure.DiagramSet" uid="767584a4-b784-4e7a-931b-136744f95250"/>
