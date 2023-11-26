@@ -79,7 +79,8 @@ RF41, RNF 2.7
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="a1b20af3-e658-4d98-ae93-56fe5304f7ab"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. El usuario que exporta XML debe tener los permisos necesarios para acceder y exportar los datos.
+2. Antes de comenzar el proceso de exportación a XML, se debe verificar que existan datos de la ruta de vuelo previamente almacenados en el sistema.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -93,7 +94,7 @@ RF41, RNF 2.7
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="af0cdb5d-1aff-4152-b0ea-a7081233f92e"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. Los datos se enviarán al dron correspondiente.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

@@ -73,7 +73,8 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="e1e6395b-c4ba-4d74-aa27-717ee6ddef77"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. Debe de haber un conjunto de imágenes asociadas al pedido.
+2. Deben existir datos del cliente asociados al pedido.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -87,7 +88,12 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="6d871fad-e747-483d-8fcc-560184199aa6"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. El informe generado se exporta a la nube.
+2. Después de genrarse y exportarse el informe, el sistema enviará una notificación al cliente.
+
+
+
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
