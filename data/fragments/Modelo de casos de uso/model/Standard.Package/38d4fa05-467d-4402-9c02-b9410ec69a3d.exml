@@ -22,6 +22,7 @@
         <COMPID name="Crear cliente" mc="Standard.Activity" uid="1cf8f9be-ef35-447e-a196-476832d8be02"/>
         <COMPID name="Editar cliente" mc="Standard.Activity" uid="3d3dab37-a26b-4c05-b4cc-03c089a647f5"/>
         <COMPID name="Registrar pedido" mc="Standard.Activity" uid="69fb28c3-46d6-4254-836f-25394c1e6497"/>
+        <COMPID name="Informes de cliente" mc="Standard.Activity" uid="c24a902b-a9b9-4f13-908f-f4ebf85f0578"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
