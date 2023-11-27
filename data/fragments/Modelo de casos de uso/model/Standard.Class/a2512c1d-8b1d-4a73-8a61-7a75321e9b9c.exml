@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Vista:AñadirDron" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Clase Modelo:PuntosRuta" version="4">
   <OBJECT>
-    <ID name="Vista:AñadirDron" mc="Standard.Class" uid="cb413b32-27e5-4e82-861e-a5777ceb235b"/>
+    <ID name="Clase Modelo:PuntosRuta" mc="Standard.Class" uid="a2512c1d-8b1d-4a73-8a61-7a75321e9b9c"/>
     <PID name="Model" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,29 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Vista:AñadirDron]]></ATT>
+      <ATT name="Name"><![CDATA[Clase Modelo:PuntosRuta]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedOperation">
-        <OBJECT>
-          <ID name="VistaAñadirDron" mc="Standard.Operation" uid="d19efa13-657e-4487-993d-ae27e407cc28"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[VistaAñadirDron]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="ModeloDron" mc="Standard.Attribute" uid="831807a2-0e75-44a1-8b45-157aede1cadc"/>
+          <ID name="IdPunto" mc="Standard.Attribute" uid="05744c21-7c70-4d4c-b91e-b8c656d11f31"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -47,7 +31,31 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[ModeloDron]]></ATT>
+            <ATT name="Name"><![CDATA[IdPunto]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Datos" mc="Standard.Attribute" uid="c076eba2-a4f3-42b6-b8dc-f10dc34466b3"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Datos]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -57,7 +65,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="NumeroSerie" mc="Standard.Attribute" uid="0557bc34-a127-40b1-a056-60f27d0e78de"/>
+          <ID name="IdPlanVuelo" mc="Standard.Attribute" uid="71af0c90-a051-4094-94d6-dcdead00ae74"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -71,60 +79,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[NumeroSerie]]></ATT>
+            <ATT name="Name"><![CDATA[IdPlanVuelo]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="HorasDeVuelo" mc="Standard.Attribute" uid="5e38401c-aa56-4fd2-bb98-9d6709ab4bfe"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[HorasDeVuelo]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="EstadoOperativo" mc="Standard.Attribute" uid="3a6abae1-7b8e-4bf2-9966-3ef3b6af7b90"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[EstadoOperativo]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="boolean" mc="Standard.DataType" uid="00000004-0000-0005-0000-000000000000"/>
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
