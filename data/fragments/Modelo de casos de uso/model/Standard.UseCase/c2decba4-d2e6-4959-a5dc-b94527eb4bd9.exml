@@ -106,7 +106,13 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="e4037751-634b-4aee-8de1-ff012ec67dba"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[1. El usuario eliminado pierde inmediatamente el acceso al sistema.]]></ATT>
+            <ATT name="Content"><![CDATA[1. El usuario eliminado pierde inmediatamente el acceso al sistema.
+
+
+
+
+
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
