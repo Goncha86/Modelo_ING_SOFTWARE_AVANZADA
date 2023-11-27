@@ -90,7 +90,9 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="f8ee6dc4-128f-454b-80bc-831296e0b1d3"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. La analista tiene permisos para eliminar información de usuarios.
+
+2. El usuario eliminado está registrado en la base de datos del sistema.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -104,7 +106,7 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="e4037751-634b-4aee-8de1-ff012ec67dba"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. El usuario eliminado pierde inmediatamente el acceso al sistema.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

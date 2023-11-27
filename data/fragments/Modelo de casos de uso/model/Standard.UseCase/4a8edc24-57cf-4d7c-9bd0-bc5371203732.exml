@@ -36,7 +36,10 @@
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[Prioridad: baja
 Descripción: se puede cambiar el idioma del sistema
-RF12, RNF 4.1]]></ATT>
+RF12, RNF 4.1
+
+
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -92,7 +95,9 @@ RF12, RNF 4.1]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="38e09af4-7b87-480a-a40d-aaf143e491e3"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. El usuario tiene acceso al sistema.
+
+2. Existen múltiples idiomas disponibles en el sistema para que el usuario los seleccione]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -106,7 +111,9 @@ RF12, RNF 4.1]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="1fc10b9d-dab9-4c69-94e1-e0f3bd756335"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. Todas las interfaces de usuario y mensajes del sistema se presentan en el nuevo idioma seleccionado por el usuario.
+
+2. El sistema guarda la preferencia de idioma seleccionada por el usuario y la aplica en futuras sesiones.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
