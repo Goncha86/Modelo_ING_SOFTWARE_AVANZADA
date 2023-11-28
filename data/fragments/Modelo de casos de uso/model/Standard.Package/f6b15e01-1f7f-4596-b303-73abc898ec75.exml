@@ -15,6 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Programar vuelo" mc="Standard.Package" uid="a270b80e-dbe8-4500-8c4f-2dda2e2b83b8"/>
+        <COMPID name="Informes de cliente" mc="Standard.Package" uid="5efcb940-2b40-4800-a694-9cd193bfc4f7"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
