@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-#Sun Nov 26 18:10:37 CET 2023
-org.modelio.app.diagram.editor.OpenedDiagrams2='Activity diagram' {511627a2-9312-483c-98d0-183ff51e4b35} Standard.ActivityDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams1='Activity diagram' {c7f3eb62-df16-4c02-bc69-a2c32e809176} Standard.ActivityDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='Activity diagram' {df0feeaf-387f-4de5-ac7a-e54959f587a0} Standard.ActivityDiagram
-=======
-#Mon Nov 27 13:35:00 CET 2023
-org.modelio.app.diagram.editor.OpenedDiagrams0='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
->>>>>>> Stashed changes
+#Tue Nov 28 15:12:47 CET 2023
+>>>>>>>=Stashed changes
+org.modelio.app.diagram.editor.OpenedDiagrams0='Interaction Sequence diagram' {8a4d9167-088f-4f3a-982f-6db05581d6b9} Standard.SequenceDiagram
+=\=\=\=\=\=\=
+<<<<<<<=Updated upstream
