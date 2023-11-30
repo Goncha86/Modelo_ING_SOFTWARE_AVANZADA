@@ -21,7 +21,6 @@
         <COMPID name="Vista:PlanificarVuelo" mc="Standard.Class" uid="342a135b-1479-4b05-9335-fc18d733611f"/>
         <COMPID name="Vista:MenuInicio" mc="Standard.Class" uid="fa7bf2cd-6711-479a-b851-6784ff42574f"/>
         <COMPID name="Control:ValidarUsuario" mc="Standard.Class" uid="fc009a79-8021-40b6-931d-766643077847"/>
-        <COMPID name="Control:OperacionesCrear" mc="Standard.Class" uid="349f272c-b21e-4e98-a6ca-129473e507f1"/>
         <COMPID name="Clase Modelo:Cliente" mc="Standard.Class" uid="e6d4b0db-6324-4036-b1c6-9fd3549030cc"/>
         <COMPID name="Clase Modelo:Pedido" mc="Standard.Class" uid="eb493350-96b0-4f6c-9a38-1b38dbc29b15"/>
         <COMPID name="Clase Modelo:Parcela" mc="Standard.Class" uid="e0cb422d-6b4d-482f-9213-c9dcabe0a6ee"/>
@@ -29,21 +28,20 @@
         <COMPID name="Clase Modelo:Modelo" mc="Standard.Class" uid="55a56750-416a-40e0-b8d3-0715fa75a494"/>
         <COMPID name="Clase Modelo:Dron" mc="Standard.Class" uid="6b281055-11dd-4afc-8fb6-740b839c0cc2"/>
         <COMPID name="Clase Modelo:Revision" mc="Standard.Class" uid="64df6726-7903-47ac-a9ba-d5489e7850ef"/>
-        <COMPID name="Clase Modelo:Servidor" mc="Standard.Class" uid="0ab6c51b-3273-4eb4-882b-b6e5b1956882"/>
         <COMPID name="Clase Modelo:PuntosRuta" mc="Standard.Class" uid="a2512c1d-8b1d-4a73-8a61-7a75321e9b9c"/>
         <COMPID name="Clase Modelo:Informe" mc="Standard.Class" uid="b947b72f-4bcd-4d9d-bb36-3fad791fd262"/>
         <COMPID name="Clase Modelo:Pago" mc="Standard.Class" uid="cd7a75f2-4371-4118-81ab-2dccede53671"/>
         <COMPID name="Clase Modelo:Usuario" mc="Standard.Class" uid="2d8fba95-e9b5-4004-870b-a1a5a74866b6"/>
-        <COMPID name="Clase Modelo:Operaciones" mc="Standard.Class" uid="fd2bf515-c9f0-46d0-800a-f653911fa2d1"/>
         <COMPID name="FachadaBD" mc="Standard.Class" uid="eae5d4da-82d3-4a39-b0db-4e8f8487b7f4"/>
         <COMPID name="Vista:Exportar a XML" mc="Standard.Class" uid="93aef446-75a9-4ba3-840e-eaf36e496056"/>
         <COMPID name="Vista:Crear informe de la IA" mc="Standard.Class" uid="002bc838-4c55-41f5-a6eb-2f0282017237"/>
         <COMPID name="Vista:Sacar Informe de clientes" mc="Standard.Class" uid="e9358fba-ac80-46ff-8a83-8fffdcc9e0f4"/>
         <COMPID name="Vista:Sacar informe de pedidos e impagos" mc="Standard.Class" uid="92dff2c4-148b-4b5f-821a-33d8e3aa0c2a"/>
-        <COMPID name="Control:OperacionesExportar" mc="Standard.Class" uid="5f321778-ac67-432d-999e-0f3d7366fbbf"/>
         <COMPID name="Fotografia" mc="Standard.Class" uid="c791d266-b31f-4e36-9eb7-eb1e0a77ff6b"/>
-        <COMPID name="Control:ES" mc="Standard.Class" uid="216e2a08-07e8-4f7a-927e-f32028ab20ef"/>
-        <COMPID name="Control:ConexionBD" mc="Standard.Class" uid="a37a174a-dd3f-4945-a453-38d5f21a969a"/>
+        <COMPID name="Control:E/S" mc="Standard.Class" uid="5c9f9a21-b0c0-4315-be08-0a15c4d55b0a"/>
+        <COMPID name="Control:Datos" mc="Standard.Class" uid="1b7719aa-6ef5-4b3f-9bd4-5df49793b3a1"/>
+        <COMPID name="Control:InformeIA" mc="Standard.Class" uid="04f21a78-bf66-4992-bd37-dbeeec087396"/>
+        <COMPID name="API Rest" mc="Standard.Class" uid="14d043a6-bc99-4e4d-8a1c-11d717f64476"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagrama clases de diseño" mc="Standard.ClassDiagram" uid="ae874093-2951-4037-9740-593233be82a4"/>

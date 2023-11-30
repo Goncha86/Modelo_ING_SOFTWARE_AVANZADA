@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Vista:Sacar Informe de clientes" version="4">
   <OBJECT>
     <ID name="Vista:Sacar Informe de clientes" mc="Standard.Class" uid="e9358fba-ac80-46ff-8a83-8fffdcc9e0f4"/>
-    <PID name="Model" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
+    <PID name="DIAGRAMA DE CLASES DE DISEÑO" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -33,7 +33,7 @@
       </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="Pedidos" mc="Standard.Attribute" uid="8d65aea7-f613-4bcf-a134-089ddc27e4b9"/>
+          <ID name="Clientes" mc="Standard.Attribute" uid="8d65aea7-f613-4bcf-a134-089ddc27e4b9"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -47,7 +47,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Pedidos]]></ATT>
+            <ATT name="Name"><![CDATA[Clientes]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
