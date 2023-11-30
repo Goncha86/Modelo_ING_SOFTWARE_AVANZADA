@@ -1,6 +1,6 @@
-#Wed Nov 29 23:19:00 CET 2023
+#Thu Nov 30 13:27:47 CET 2023
 >>>>>>>=Stashed changes
-org.modelio.app.diagram.editor.OpenedDiagrams1='Interaction Sequence diagram' {8a4d9167-088f-4f3a-982f-6db05581d6b9} Standard.SequenceDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='Interaction Sequence diagram' {fd5cc024-5d72-4525-a88e-104333725f18} Standard.SequenceDiagram
-=\=\=\=\=\=\=
+org.modelio.app.diagram.editor.OpenedDiagrams1='Communication Interaction Communication diagram' {ccce9de5-d92a-4b31-8ac4-49687e3ad21a} Standard.CommunicationDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Interaction Sequence diagram' {8a4d9167-088f-4f3a-982f-6db05581d6b9} Standard.SequenceDiagram
 <<<<<<<=Updated upstream
+=\=\=\=\=\=\=

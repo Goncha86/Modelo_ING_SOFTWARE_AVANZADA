@@ -14,6 +14,7 @@
         <COMPID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
         <COMPID name="Model" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
         <COMPID name="DIAGRAMAS SECUENCIA" mc="Standard.Package" uid="f6b15e01-1f7f-4596-b303-73abc898ec75"/>
+        <COMPID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="Modelo de casos de uso" mc="Infrastructure.DiagramSet" uid="767584a4-b784-4e7a-931b-136744f95250"/>
