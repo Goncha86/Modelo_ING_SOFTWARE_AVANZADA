@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Registrar pedidos" version="4">
+  <OBJECT>
+    <ID name="Registrar pedidos" mc="Standard.Package" uid="e918664c-ec06-4db7-88c9-ebf748b74157"/>
+    <PID name="DIAGRAMAS SECUENCIA" mc="Standard.Package" uid="f6b15e01-1f7f-4596-b303-73abc898ec75"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Registrar pedidos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="5e06829b-2fdb-4a39-a6c7-7d07c1798a32"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

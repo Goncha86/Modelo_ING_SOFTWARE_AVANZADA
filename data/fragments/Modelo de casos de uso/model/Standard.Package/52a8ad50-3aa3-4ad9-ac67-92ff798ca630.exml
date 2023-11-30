@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Model" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DIAGRAMA DE CLASES DE DISEÑO" version="4">
   <OBJECT>
-    <ID name="Model" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
+    <ID name="DIAGRAMA DE CLASES DE DISEÑO" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
     <PID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Model]]></ATT>
+      <ATT name="Name"><![CDATA[DIAGRAMA DE CLASES DE DISEÑO]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -42,6 +42,8 @@
         <COMPID name="Vista:Sacar informe de pedidos e impagos" mc="Standard.Class" uid="92dff2c4-148b-4b5f-821a-33d8e3aa0c2a"/>
         <COMPID name="Control:OperacionesExportar" mc="Standard.Class" uid="5f321778-ac67-432d-999e-0f3d7366fbbf"/>
         <COMPID name="Fotografia" mc="Standard.Class" uid="c791d266-b31f-4e36-9eb7-eb1e0a77ff6b"/>
+        <COMPID name="Control:ES" mc="Standard.Class" uid="216e2a08-07e8-4f7a-927e-f32028ab20ef"/>
+        <COMPID name="Control:ConexionBD" mc="Standard.Class" uid="a37a174a-dd3f-4945-a453-38d5f21a969a"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagrama clases de diseño" mc="Standard.ClassDiagram" uid="ae874093-2951-4037-9740-593233be82a4"/>
