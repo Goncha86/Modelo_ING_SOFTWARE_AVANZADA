@@ -374,9 +374,9 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="CommunicationChannel" mc="Standard.CommunicationChannel" uid="cec15405-0e71-45a0-bb5c-ee8a0e4dbc77"/>
+                <ID name="1.5. select_BD()" mc="Standard.CommunicationChannel" uid="cec15405-0e71-45a0-bb5c-ee8a0e4dbc77"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[CommunicationChannel]]></ATT>
+                  <ATT name="Name"><![CDATA[1.5. select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

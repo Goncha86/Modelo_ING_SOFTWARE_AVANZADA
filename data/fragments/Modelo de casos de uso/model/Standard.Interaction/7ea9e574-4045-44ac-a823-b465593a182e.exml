@@ -88,7 +88,7 @@
         <OBJECT>
           <ID name="CombinedFragment" mc="Standard.CombinedFragment" uid="ec703a03-f4ef-432b-ad51-3204b0d428e0"/>
           <ATTRIBUTES>
-            <ATT name="Operator">SeqOp</ATT>
+            <ATT name="Operator">AltOp</ATT>
             <ATT name="LineNumber">128</ATT>
             <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -429,7 +429,7 @@
         <OBJECT>
           <ID name="CombinedFragment" mc="Standard.CombinedFragment" uid="8b17e021-1838-4751-8863-d963190c64ff"/>
           <ATTRIBUTES>
-            <ATT name="Operator">SeqOp</ATT>
+            <ATT name="Operator">AltOp</ATT>
             <ATT name="LineNumber">588</ATT>
             <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
             <ATT name="status">1970354901745664</ATT>
