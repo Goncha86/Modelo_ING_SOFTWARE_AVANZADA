@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DIAGRAMAS SECUENCIA" version="4">
+  <OBJECT>
+    <ID name="DIAGRAMAS SECUENCIA" mc="Standard.Package" uid="f6b15e01-1f7f-4596-b303-73abc898ec75"/>
+    <PID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DIAGRAMAS SECUENCIA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Programar vuelo" mc="Standard.Package" uid="a270b80e-dbe8-4500-8c4f-2dda2e2b83b8"/>
+        <COMPID name="Informes de cliente" mc="Standard.Package" uid="5efcb940-2b40-4800-a694-9cd193bfc4f7"/>
+        <COMPID name="Registrar pedidos" mc="Standard.Package" uid="e918664c-ec06-4db7-88c9-ebf748b74157"/>
+        <COMPID name="Informe de pedidos e impagos" mc="Standard.Package" uid="34b0ed39-6caf-4950-9542-e5e600b5d869"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

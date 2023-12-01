@@ -92,7 +92,9 @@ RF1, RF2]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="3f70d124-8762-4431-b9a4-747380b43259"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. La analista tiene acceso al sistema con privilegios para crear nuevos usuarios.
+
+2. No existe un usuario registrado en la base de datos del sistema con los mismos datos.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -106,7 +108,7 @@ RF1, RF2]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="c14d0631-4329-47e4-94d0-09ce9ceee5c2"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. El usuario queda registrado en la base de datos del sistema.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

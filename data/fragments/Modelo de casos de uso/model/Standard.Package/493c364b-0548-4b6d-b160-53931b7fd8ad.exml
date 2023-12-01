@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DIAGRAMA DE COLABORACION" version="4">
+  <OBJECT>
+    <ID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
+    <PID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DIAGRAMA DE COLABORACION]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Programar vuelos" mc="Standard.Package" uid="903f8e71-34c7-4522-b4b6-a38ba4c945cb"/>
+        <COMPID name="Informe pedidos e impagos" mc="Standard.Package" uid="41f51bb9-c1ae-4400-9eaf-147ba72ba835"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

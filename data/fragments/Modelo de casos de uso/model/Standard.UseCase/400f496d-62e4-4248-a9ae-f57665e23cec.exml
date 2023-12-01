@@ -92,7 +92,9 @@ RF3, RF36]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="37b91be8-5b9f-4227-a164-3e67afb582c8"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. La analista tiene acceso al sistema con privilegios para editar información de usuarios.
+
+2. El usuario cuya información se va a editar está registrado en la base de datos del sistema.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -106,7 +108,9 @@ RF3, RF36]]></ATT>
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="c5532153-fe64-4863-a46f-c8379e2f931c"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[1. La información del usuario editada se actualiza en la base de datos.
+
+2. El usuario editado tiene acceso con las nuevas credenciales si estas han cambiado.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
