@@ -17,6 +17,7 @@
         <COMPID name="Programar vuelos" mc="Standard.Package" uid="903f8e71-34c7-4522-b4b6-a38ba4c945cb"/>
         <COMPID name="Informe pedidos e impagos" mc="Standard.Package" uid="41f51bb9-c1ae-4400-9eaf-147ba72ba835"/>
         <COMPID name="Alta Dron" mc="Standard.Package" uid="19503ead-537d-4f69-883c-f439e0eaeac2"/>
+        <COMPID name="Crear Clientes" mc="Standard.Package" uid="dd098d55-f594-43ad-96e4-e4bf343b2c87"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
