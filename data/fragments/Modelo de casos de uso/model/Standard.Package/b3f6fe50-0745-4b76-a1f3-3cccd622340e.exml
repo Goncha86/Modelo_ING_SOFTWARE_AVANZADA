@@ -13,6 +13,10 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="42593c3f-7929-4edf-9a38-086c909988e8"/>
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="55fa9f38-f5a2-4276-a90c-f62d78bb740b"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Controladora" mc="Standard.Actor" uid="4c0d1a13-c144-4b04-b189-11f9348e1cd6"/>
         <COMPID name="Dar de alta área de la parcela" mc="Standard.UseCase" uid="0a03f8fc-8864-4dc9-adca-57fd0e7ccef0"/>
