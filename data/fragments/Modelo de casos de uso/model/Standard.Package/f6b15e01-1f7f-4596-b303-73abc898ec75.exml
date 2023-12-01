@@ -18,6 +18,7 @@
         <COMPID name="Informes de cliente" mc="Standard.Package" uid="5efcb940-2b40-4800-a694-9cd193bfc4f7"/>
         <COMPID name="Registrar pedidos" mc="Standard.Package" uid="e918664c-ec06-4db7-88c9-ebf748b74157"/>
         <COMPID name="Informe de pedidos e impagos" mc="Standard.Package" uid="34b0ed39-6caf-4950-9542-e5e600b5d869"/>
+        <COMPID name="Alta Dron" mc="Standard.Package" uid="75ef612f-1a53-40bb-9334-ab654d3c51df"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

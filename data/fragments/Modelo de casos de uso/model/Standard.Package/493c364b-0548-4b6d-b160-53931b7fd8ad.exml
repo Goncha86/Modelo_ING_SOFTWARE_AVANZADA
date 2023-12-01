@@ -16,6 +16,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="Programar vuelos" mc="Standard.Package" uid="903f8e71-34c7-4522-b4b6-a38ba4c945cb"/>
         <COMPID name="Informe pedidos e impagos" mc="Standard.Package" uid="41f51bb9-c1ae-4400-9eaf-147ba72ba835"/>
+        <COMPID name="Alta Dron" mc="Standard.Package" uid="19503ead-537d-4f69-883c-f439e0eaeac2"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

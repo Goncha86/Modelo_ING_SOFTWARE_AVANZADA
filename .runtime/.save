@@ -1,9 +1,9 @@
-#Fri Dec 01 13:27:05 CET 2023
+#Fri Dec 01 13:35:56 CET 2023
 org.modelio.app.diagram.editor.OpenedDiagrams4='Colaboracion altaDron' {5547bb6d-e0e6-4f5f-90c9-0e8373dc8bce} Standard.CommunicationDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams3='Secuencia AltaDron ' {37645d61-89b9-4118-9b26-95ff30c4110a} Standard.SequenceDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams2='Activity diagram' {511627a2-9312-483c-98d0-183ff51e4b35} Standard.ActivityDiagram
->>>>>>>=Stashed changes
-org.modelio.app.diagram.editor.OpenedDiagrams1='Activity diagram' {c7f3eb62-df16-4c02-bc69-a2c32e809176} Standard.ActivityDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
-<<<<<<<=Updated upstream
+>>>>>>>=main
+org.modelio.app.diagram.editor.OpenedDiagrams1='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Registrar pedidos' {1b0ab889-ff80-4858-9a64-a02f4e4adf9c} Standard.SequenceDiagram
 =\=\=\=\=\=\=
+<<<<<<<=Updated upstream
