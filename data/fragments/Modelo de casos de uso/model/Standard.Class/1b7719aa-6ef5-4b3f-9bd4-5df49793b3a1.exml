@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Control:Datos" version="4">
   <OBJECT>
     <ID name="Control:Datos" mc="Standard.Class" uid="1b7719aa-6ef5-4b3f-9bd4-5df49793b3a1"/>
-    <PID name="DIAGRAMA DE CLASES DE DISEÑO" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
+    <PID name="Control" mc="Standard.Package" uid="0f3ea5ef-f8f6-4324-93be-fde4693e9da6"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

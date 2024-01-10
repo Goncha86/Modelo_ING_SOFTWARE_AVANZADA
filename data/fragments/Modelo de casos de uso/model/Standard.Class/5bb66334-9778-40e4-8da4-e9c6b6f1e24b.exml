@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Clase Modelo:Usuario" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Clase Modelo:PuntoGeográfico" version="4">
   <OBJECT>
-    <ID name="Clase Modelo:Usuario" mc="Standard.Class" uid="2d8fba95-e9b5-4004-870b-a1a5a74866b6"/>
+    <ID name="Clase Modelo:PuntoGeográfico" mc="Standard.Class" uid="5bb66334-9778-40e4-8da4-e9c6b6f1e24b"/>
     <PID name="Modelo" mc="Standard.Package" uid="e246c48f-0d87-4ee3-84ec-d377d0fb3bb8"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,43 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Clase Modelo:Usuario]]></ATT>
+      <ATT name="Name"><![CDATA[Clase Modelo:PuntoGeográfico]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedOperation">
-        <OBJECT>
-          <ID name="getUsuario" mc="Standard.Operation" uid="7c39ee7a-a2ae-43e3-8598-d6956498e76f"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[getUsuario]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="setUsuario" mc="Standard.Operation" uid="854eb4c7-ab2f-4ad0-986f-b030101ce621"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[setUsuario]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="IdEmpleado" mc="Standard.Attribute" uid="adea52eb-aba0-4378-880c-0e094ad464c5"/>
+          <ID name="ID_Vertice" mc="Standard.Attribute" uid="94ab9c5f-3de0-45fc-b95a-234c0eeb21f2"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -61,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[IdEmpleado]]></ATT>
+            <ATT name="Name"><![CDATA[ID_Vertice]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -71,7 +41,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Email" mc="Standard.Attribute" uid="0a5383bb-db43-47eb-b6cb-8008906e9701"/>
+          <ID name="Latitud" mc="Standard.Attribute" uid="3314d8e0-ca81-4a13-b5b1-148ff09b23aa"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -85,17 +55,17 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Email]]></ATT>
+            <ATT name="Name"><![CDATA[Latitud]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Cargo" mc="Standard.Attribute" uid="8203f203-b9ef-48c5-bee2-f6599b3bbfa1"/>
+          <ID name="Longitud" mc="Standard.Attribute" uid="b340be86-331b-4f7f-af9c-0522bb364ba8"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -109,17 +79,17 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Cargo]]></ATT>
+            <ATT name="Name"><![CDATA[Longitud]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Contraseña" mc="Standard.Attribute" uid="cefb2c95-0e15-4055-bcc8-4ad8bd517d1f"/>
+          <ID name="Parcelo_ID_Parcela" mc="Standard.Attribute" uid="b68e4d3d-8b75-4378-8b4d-d9c00fd16530"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -133,28 +103,76 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Contraseña]]></ATT>
+            <ATT name="Name"><![CDATA[Parcelo_ID_Parcela]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="Parent">
+      <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="c92d3f53-c0f3-4d52-8141-95406b01ac70"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="06163628-5d1d-4e4f-a8fd-0e860b444ea3"/>
           <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Control:ValidarUsuario" mc="Standard.Class" uid="fc009a79-8021-40b6-931d-766643077847"/>
+            <LINK relation="Target">
+              <ID name="Clase Modelo:Parcela" mc="Standard.Class" uid="e0cb422d-6b4d-482f-9213-c9dcabe0a6ee"/>
             </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="33b318a8-ea1e-4c35-91ad-bf2a9200ccca"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="06163628-5d1d-4e4f-a8fd-0e860b444ea3"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Association" uid="c9236e3b-e9f9-4fa3-8b20-aca56a6ea18e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Standard.Association" uid="c9236e3b-e9f9-4fa3-8b20-aca56a6ea18e"/>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
