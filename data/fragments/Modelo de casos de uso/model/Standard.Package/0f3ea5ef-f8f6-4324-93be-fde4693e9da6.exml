@@ -14,10 +14,12 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Control:ValidarUsuario" mc="Standard.Class" uid="fc009a79-8021-40b6-931d-766643077847"/>
-        <COMPID name="Control:Datos" mc="Standard.Class" uid="1b7719aa-6ef5-4b3f-9bd4-5df49793b3a1"/>
-        <COMPID name="Control:E/S" mc="Standard.Class" uid="5c9f9a21-b0c0-4315-be08-0a15c4d55b0a"/>
-        <COMPID name="Control:InformeIA" mc="Standard.Class" uid="04f21a78-bf66-4992-bd37-dbeeec087396"/>
+        <COMPID name="Control: Usuario" mc="Standard.Class" uid="fc009a79-8021-40b6-931d-766643077847"/>
+        <COMPID name="Controlador: Clientes" mc="Standard.Class" uid="d1bed374-16a8-420f-9458-89bf4545aa90"/>
+        <COMPID name="Controlador: Informes" mc="Standard.Class" uid="d9d8dab5-51ef-4bf4-835d-c6a4eca1b7a6"/>
+        <COMPID name="Controlador: Drones" mc="Standard.Class" uid="d85c6cb4-7288-4f10-9a50-604db99f28c9"/>
+        <COMPID name="Controlador: Vuelos" mc="Standard.Class" uid="fe81a2b0-b94f-407f-8767-b46521146cf0"/>
+        <COMPID name="Controlador: Pedidos" mc="Standard.Class" uid="05046b0f-bb46-44ec-8f1e-53e560d687d5"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

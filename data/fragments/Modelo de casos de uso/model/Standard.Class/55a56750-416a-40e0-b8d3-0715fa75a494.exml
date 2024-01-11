@@ -31,7 +31,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="setModelo" mc="Standard.Operation" uid="24f4080d-1c47-4a2e-9f2d-ed80915b0b8f"/>
+          <ID name="listaModelos" mc="Standard.Operation" uid="b38d271c-a4c7-4094-8d62-3af7a5ccc6fd"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -39,10 +39,35 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[setModelo]]></ATT>
+            <ATT name="Name"><![CDATA[listaModelos]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="lista" mc="Standard.Parameter" uid="2733f538-cf88-49c6-8a6a-51982ac6a96d"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[lista]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="array" mc="Standard.DataType" uid="7cc6e0c1-1e2e-4fec-9d32-2c67fb21a1bc"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="OwnedAttribute">

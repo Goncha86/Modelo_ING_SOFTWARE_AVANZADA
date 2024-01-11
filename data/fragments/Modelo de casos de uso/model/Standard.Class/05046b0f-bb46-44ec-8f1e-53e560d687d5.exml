@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Control: Usuario" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Controlador: Pedidos" version="4">
   <OBJECT>
-    <ID name="Control: Usuario" mc="Standard.Class" uid="fc009a79-8021-40b6-931d-766643077847"/>
+    <ID name="Controlador: Pedidos" mc="Standard.Class" uid="05046b0f-bb46-44ec-8f1e-53e560d687d5"/>
     <PID name="Control" mc="Standard.Package" uid="0f3ea5ef-f8f6-4324-93be-fde4693e9da6"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Control: Usuario]]></ATT>
+      <ATT name="Name"><![CDATA[Controlador: Pedidos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="validarUsuario" mc="Standard.Operation" uid="d1a6e50a-c4ff-4bce-a462-dff3bf72b3e9"/>
+          <ID name="crearPedidos" mc="Standard.Operation" uid="bc9eb52b-4b6c-41b9-9b2f-7b6d9749ba2f"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,13 +25,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[validarUsuario]]></ATT>
+            <ATT name="Name"><![CDATA[crearPedidos]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="credenciales" mc="Standard.Parameter" uid="055bff67-753a-4fce-b6ab-16d6b2a74fa6"/>
+                <ID name="datos" mc="Standard.Parameter" uid="561796e8-353c-4ec8-bd93-4d5945bc87ac"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -43,7 +43,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[credenciales]]></ATT>
+                  <ATT name="Name"><![CDATA[datos]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -52,47 +52,8 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="obtenerPermisos" mc="Standard.Operation" uid="c4f557c6-5955-4b83-a8fd-f5bc5ad62ad2"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[obtenerPermisos]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="IO">
               <OBJECT>
-                <ID name="cargoUsuario" mc="Standard.Parameter" uid="ee704733-a885-4b15-aa58-6102460fc7a9"/>
-                <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="TypeConstraint"></ATT>
-                  <ATT name="DefaultValue"></ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="IsException">false</ATT>
-                  <ATT name="IsStream">false</ATT>
-                  <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[cargoUsuario]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Type">
-                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="permisos" mc="Standard.Parameter" uid="e95c363c-482c-4aa0-994d-c0bbe0b825f6"/>
+                <ID name="Pedido" mc="Standard.Parameter" uid="6d592c12-7618-4daf-adf0-010b9dfbd649"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -104,12 +65,112 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[permisos]]></ATT>
+                  <ATT name="Name"><![CDATA[Pedido]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="creaInformePedido" mc="Standard.Operation" uid="99783ab2-1751-48a1-8348-d04e71b96512"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[creaInformePedido]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="listaPedidos" mc="Standard.Parameter" uid="9e16c98e-f237-465d-98f7-2c53fbcccb9f"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[listaPedidos]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="informePedidos" mc="Standard.Parameter" uid="ca48b353-5f40-4b74-8e4d-05317775bd08"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[informePedidos]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="listaPedidos" mc="Standard.Operation" uid="4da54081-fef9-435a-b1ae-c8bd95149621"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[listaPedidos]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="listaPedidos" mc="Standard.Parameter" uid="92ea2f3f-dc33-4b50-b24f-99a331921ddf"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[listaPedidos]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="array" mc="Standard.DataType" uid="7cc6e0c1-1e2e-4fec-9d32-2c67fb21a1bc"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>

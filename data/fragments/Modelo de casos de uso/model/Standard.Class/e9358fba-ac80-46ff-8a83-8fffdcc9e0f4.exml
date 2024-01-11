@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Vista:Sacar Informe de clientes" version="4">
   <OBJECT>
     <ID name="Vista:Sacar Informe de clientes" mc="Standard.Class" uid="e9358fba-ac80-46ff-8a83-8fffdcc9e0f4"/>
-    <PID name="DIAGRAMA DE CLASES DE DISEÑO" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
+    <PID name="Vista" mc="Standard.Package" uid="fb3fa844-f780-4fa3-8468-72963e68418c"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -29,32 +29,6 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="OwnedAttribute">
-        <OBJECT>
-          <ID name="Clientes" mc="Standard.Attribute" uid="8d65aea7-f613-4bcf-a134-089ddc27e4b9"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Clientes]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
         </OBJECT>
       </COMP>
     </DEPENDENCIES>

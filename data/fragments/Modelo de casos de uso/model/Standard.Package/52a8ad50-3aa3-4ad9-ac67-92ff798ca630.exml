@@ -14,18 +14,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Vista:ValidarUsuario" mc="Standard.Class" uid="6d4d51a6-1869-4db5-9e71-fa494dc2ff26"/>
-        <COMPID name="Vista:CrearCliente" mc="Standard.Class" uid="652129fd-82b6-4a68-811b-645d9e8f241f"/>
-        <COMPID name="Vista:RegistrarPedido" mc="Standard.Class" uid="a7822358-6719-4f83-86f1-0ed881606210"/>
-        <COMPID name="Vista:AñadirDron" mc="Standard.Class" uid="cb413b32-27e5-4e82-861e-a5777ceb235b"/>
-        <COMPID name="Vista:PlanificarVuelo" mc="Standard.Class" uid="342a135b-1479-4b05-9335-fc18d733611f"/>
-        <COMPID name="Vista:MenuInicio" mc="Standard.Class" uid="fa7bf2cd-6711-479a-b851-6784ff42574f"/>
         <COMPID name="FachadaBD" mc="Standard.Class" uid="eae5d4da-82d3-4a39-b0db-4e8f8487b7f4"/>
-        <COMPID name="Vista:Exportar a XML" mc="Standard.Class" uid="93aef446-75a9-4ba3-840e-eaf36e496056"/>
-        <COMPID name="Vista:Crear informe de la IA" mc="Standard.Class" uid="002bc838-4c55-41f5-a6eb-2f0282017237"/>
-        <COMPID name="Vista:Sacar Informe de clientes" mc="Standard.Class" uid="e9358fba-ac80-46ff-8a83-8fffdcc9e0f4"/>
-        <COMPID name="Vista:Sacar informe de pedidos e impagos" mc="Standard.Class" uid="92dff2c4-148b-4b5f-821a-33d8e3aa0c2a"/>
-        <COMPID name="API Rest" mc="Standard.Class" uid="14d043a6-bc99-4e4d-8a1c-11d717f64476"/>
+        <COMPID name="CeresIA" mc="Standard.Class" uid="14d043a6-bc99-4e4d-8a1c-11d717f64476"/>
         <COMPID name="Modelo" mc="Standard.Package" uid="e246c48f-0d87-4ee3-84ec-d377d0fb3bb8"/>
         <COMPID name="Control" mc="Standard.Package" uid="0f3ea5ef-f8f6-4324-93be-fde4693e9da6"/>
         <COMPID name="Vista" mc="Standard.Package" uid="fb3fa844-f780-4fa3-8468-72963e68418c"/>

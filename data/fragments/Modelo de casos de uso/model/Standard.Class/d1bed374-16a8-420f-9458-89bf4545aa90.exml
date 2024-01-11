@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CeresIA" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Controlador: Clientes" version="4">
   <OBJECT>
-    <ID name="CeresIA" mc="Standard.Class" uid="14d043a6-bc99-4e4d-8a1c-11d717f64476"/>
-    <PID name="DIAGRAMA DE CLASES DE DISEÑO" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
+    <ID name="Controlador: Clientes" mc="Standard.Class" uid="d1bed374-16a8-420f-9458-89bf4545aa90"/>
+    <PID name="Control" mc="Standard.Package" uid="0f3ea5ef-f8f6-4324-93be-fde4693e9da6"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[CeresIA]]></ATT>
+      <ATT name="Name"><![CDATA[Controlador: Clientes]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="generarInforme" mc="Standard.Operation" uid="ff073b89-e3fd-41ff-9b70-81902dfbb953"/>
+          <ID name="crearCliente" mc="Standard.Operation" uid="b5db21ca-8651-4848-bf10-f0ca03163549"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,13 +25,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[generarInforme]]></ATT>
+            <ATT name="Name"><![CDATA[crearCliente]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="fotos" mc="Standard.Parameter" uid="bf42e451-64fb-4beb-95c3-a1cb39914ae0"/>
+                <ID name="datos" mc="Standard.Parameter" uid="cea7f583-1a78-4c35-bdc2-93f428cde351"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -43,7 +43,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[fotos]]></ATT>
+                  <ATT name="Name"><![CDATA[datos]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -53,7 +53,7 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="informe" mc="Standard.Parameter" uid="89688c50-527c-4c79-a485-360e7dabee45"/>
+                <ID name="Cliente" mc="Standard.Parameter" uid="f42895c5-23c9-4c6c-bd61-f96fc20c1dbc"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -65,7 +65,84 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[informe]]></ATT>
+                  <ATT name="Name"><![CDATA[Cliente]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="8ed23aa8-a929-4bcb-a37f-e435a14bcdef"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="crearInformeClientes" mc="Standard.Operation" uid="762dd1db-3ffb-4393-be78-16378946c79e"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[crearInformeClientes]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="listaClientes" mc="Standard.Parameter" uid="98be9575-ddae-4a27-a667-3aeef5d37bd7"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[listaClientes]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="informeClientes" mc="Standard.Parameter" uid="20cf2be1-4a33-4be7-b542-606de5a571fc"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[informeClientes]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -78,7 +155,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="recibirImagenes" mc="Standard.Operation" uid="b31fd14b-5a5e-4165-8cc8-4a5cc530961e"/>
+          <ID name="listaClientes" mc="Standard.Operation" uid="6ad163ec-93de-4a3e-9580-e57bddaf2067"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -86,15 +163,15 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[recibirImagenes]]></ATT>
+            <ATT name="Name"><![CDATA[listaClientes]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="imagenes" mc="Standard.Parameter" uid="6b2e0e6e-3483-4f31-b5a8-8daaca572d8a"/>
+                <ID name="listaClientes" mc="Standard.Parameter" uid="c916a59e-d332-4f39-a448-7943b6ed166a"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
@@ -104,36 +181,22 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[imagenes]]></ATT>
+                  <ATT name="Name"><![CDATA[listaClientes]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="array" mc="Standard.DataType" uid="7cc6e0c1-1e2e-4fec-9d32-2c67fb21a1bc"/>
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <OBJECT>
-          <ID name="pedirImagenes" mc="Standard.Operation" uid="5703783e-2e84-4156-94cb-f1802b5045fc"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[pedirImagenes]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="8758f426-2528-488b-bd3f-712ee6220a50"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="741f9295-c44c-4ca0-a7be-1f08b0269dcb"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
