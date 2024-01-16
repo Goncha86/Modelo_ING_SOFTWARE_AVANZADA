@@ -1,5 +1,7 @@
-#Thu Jan 11 13:45:51 CET 2024
+#Tue Jan 16 18:26:17 CET 2024
+org.modelio.app.diagram.editor.OpenedDiagrams2='DIAGRAMA DE DESPLIEGUE Deployment diagram' {875e2fac-4962-4653-9b7d-638f592c2463} Standard.DeploymentDiagram
 >>>>>>>=main
+org.modelio.app.diagram.editor.OpenedDiagrams1='Model Object diagram' {c435d230-9033-45ee-90b9-22d897e9a978} Standard.ObjectDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
-=\=\=\=\=\=\=
 <<<<<<<=Updated upstream
+=\=\=\=\=\=\=

@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NAS" version="4">
   <OBJECT>
     <ID name="NAS" mc="Standard.Node" uid="9f9c3857-62fe-413f-9adb-9ccf45a03b55"/>
-    <PID name="Rack" mc="Standard.Package" uid="2941b999-e4bd-4c2a-9b5c-38cd816f4944"/>
+    <PID name="Servidor" mc="Standard.Package" uid="a1ef0589-7201-44ce-a204-83867df44196"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>

@@ -17,6 +17,7 @@
         <COMPID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
         <COMPID name="ClasesUML" mc="Standard.Package" uid="998f3cc3-b4bd-439b-b268-d01042614725"/>
         <COMPID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="fd8fcd8b-98fa-4734-bc0a-e15b0a56b5d8"/>
+        <COMPID name="Model" mc="Standard.Package" uid="dd83d858-ea30-4889-813c-54b285d9d4b1"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="Modelo de casos de uso" mc="Infrastructure.DiagramSet" uid="767584a4-b784-4e7a-931b-136744f95250"/>
