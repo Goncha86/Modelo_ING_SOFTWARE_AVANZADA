@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rack" version="4">
+  <OBJECT>
+    <ID name="Rack" mc="Standard.Package" uid="2941b999-e4bd-4c2a-9b5c-38cd816f4944"/>
+    <PID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="fd8fcd8b-98fa-4734-bc0a-e15b0a56b5d8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Rack]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Switch Central" mc="Standard.Node" uid="9d206a54-fd65-4ec5-8644-d8e628e2a1bf"/>
+        <COMPID name="Centralita Del Servidor" mc="Standard.Node" uid="86fe7edf-425f-4ecb-80dc-339fe774401c"/>
+        <COMPID name="NAS" mc="Standard.Node" uid="9f9c3857-62fe-413f-9adb-9ccf45a03b55"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
