@@ -133,7 +133,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="8758f426-2528-488b-bd3f-712ee6220a50"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="1a83288c-2043-458c-bf08-5f2b8fc4f146"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>

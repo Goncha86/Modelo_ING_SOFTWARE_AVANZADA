@@ -31,6 +31,34 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="72fc8b5b-1bd0-403a-92aa-a1208da7d2fb"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Controlador: Informes" mc="Standard.Class" uid="d9d8dab5-51ef-4bf4-835d-c6a4eca1b7a6"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="f5cd76fc-b82c-464a-9c23-d1eb6ad11acc"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Controlador: Clientes" mc="Standard.Class" uid="d1bed374-16a8-420f-9458-89bf4545aa90"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
