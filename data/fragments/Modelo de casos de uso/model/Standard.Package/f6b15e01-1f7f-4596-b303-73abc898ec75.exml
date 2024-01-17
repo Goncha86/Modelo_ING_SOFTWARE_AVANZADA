@@ -20,6 +20,8 @@
         <COMPID name="Informe de pedidos e impagos" mc="Standard.Package" uid="34b0ed39-6caf-4950-9542-e5e600b5d869"/>
         <COMPID name="Alta Dron" mc="Standard.Package" uid="75ef612f-1a53-40bb-9334-ab654d3c51df"/>
         <COMPID name="Crear clientes" mc="Standard.Package" uid="8576e4f8-165b-411d-988f-4d921c130a36"/>
+        <COMPID name="Exportacion a XML" mc="Standard.Package" uid="fd82c876-c67e-461e-80c8-d092de4609c0"/>
+        <COMPID name="Crear informe IA" mc="Standard.Package" uid="1b41ea0e-6f96-41c0-82cc-c85f4035abb0"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
