@@ -18,7 +18,7 @@
         <COMPID name="Controlador: Clientes" mc="Standard.Class" uid="d1bed374-16a8-420f-9458-89bf4545aa90"/>
         <COMPID name="Controlador: Informes" mc="Standard.Class" uid="d9d8dab5-51ef-4bf4-835d-c6a4eca1b7a6"/>
         <COMPID name="Controlador: Drones" mc="Standard.Class" uid="d85c6cb4-7288-4f10-9a50-604db99f28c9"/>
-        <COMPID name="Controlador: Vuelos" mc="Standard.Class" uid="fe81a2b0-b94f-407f-8767-b46521146cf0"/>
+        <COMPID name="Control: Ruta" mc="Standard.Class" uid="fe81a2b0-b94f-407f-8767-b46521146cf0"/>
         <COMPID name="Controlador: Pedidos" mc="Standard.Class" uid="05046b0f-bb46-44ec-8f1e-53e560d687d5"/>
       </COMP>
     </DEPENDENCIES>
