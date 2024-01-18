@@ -25,13 +25,7 @@
           <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="aa9725ba-30f3-4659-bfeb-3224b6e87a21"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="b75f96e4-d343-4585-a367-ecd5dd0e6c4c"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="1f259f24-b67f-4e5d-b9f2-f3df4109892d"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
@@ -58,19 +52,7 @@
           <ID name="1.3. getUsuario()" mc="Standard.CommunicationChannel" uid="8744b252-1a1f-48e2-bf68-d177fdcab321"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="1.4. cargarObjeto()" mc="Standard.CommunicationChannel" uid="9c4a5432-e378-4ca4-b618-5c5afe4579ab"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="1.5. select_BD()" mc="Standard.CommunicationChannel" uid="1420b420-5699-4e11-b817-13d80e07217e"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="2.5. insert_BD()" mc="Standard.CommunicationChannel" uid="0d319e6b-8735-455a-9b48-862fe8b16277"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="2.4. guardarObjeto()" mc="Standard.CommunicationChannel" uid="6108f8a9-01ce-47e9-9b25-c138c5279412"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="2.3. setCliente()" mc="Standard.CommunicationChannel" uid="60dd0bab-d0ae-4276-b02f-497a37274aee"/>

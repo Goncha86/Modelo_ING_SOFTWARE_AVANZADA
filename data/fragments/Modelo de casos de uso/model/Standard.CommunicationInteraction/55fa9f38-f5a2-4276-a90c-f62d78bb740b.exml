@@ -28,12 +28,12 @@
                 <DEPENDENCIES>
                   <COMP relation="StartToEndMessage">
                     <OBJECT>
-                      <ID name="Cambio" mc="Standard.CommunicationMessage" uid="d286431e-21b2-4e42-907e-dd5072724142"/>
+                      <ID name="1. validarUsuario()" mc="Standard.CommunicationMessage" uid="d286431e-21b2-4e42-907e-dd5072724142"/>
                       <ATTRIBUTES>
                         <ATT name="Argument"></ATT>
                         <ATT name="Sequence"></ATT>
                         <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"><![CDATA[Cambio]]></ATT>
+                        <ATT name="Name"><![CDATA[1. validarUsuario()]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
@@ -98,9 +98,9 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="1.2 vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="483f349b-f4f5-4b60-b214-07171c184be2"/>
+                <ID name="1.2 validarUsuario()" mc="Standard.CommunicationChannel" uid="483f349b-f4f5-4b60-b214-07171c184be2"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.2 vistaValidarUsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[1.2 validarUsuario()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -135,24 +135,7 @@
             <ATT name="Name"><![CDATA[Dron]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Started">
-              <OBJECT>
-                <ID name="2.4. setDron()" mc="Standard.CommunicationChannel" uid="d676316e-42f7-41bc-92a1-94afd3117f53"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4. setDron()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="b75f96e4-d343-4585-a367-ecd5dd0e6c4c"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
+          <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
@@ -161,24 +144,7 @@
             <ATT name="Name"><![CDATA[FachadaBD]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Started">
-              <OBJECT>
-                <ID name="2.5. insert_BD()" mc="Standard.CommunicationChannel" uid="0d319e6b-8735-455a-9b48-862fe8b16277"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.5. insert_BD()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="1f259f24-b67f-4e5d-b9f2-f3df4109892d"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
+          <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="aa9725ba-30f3-4659-bfeb-3224b6e87a21"/>
@@ -190,9 +156,9 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="" mc="Standard.CommunicationChannel" uid="1dd88afc-dc76-4ed7-82d5-ac120e231000"/>
+                <ID name="2.1. vistaMenuInicio()" mc="Standard.CommunicationChannel" uid="1dd88afc-dc76-4ed7-82d5-ac120e231000"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Name"><![CDATA[2.1. vistaMenuInicio()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -244,9 +210,9 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="1.3 getUsuario()" mc="Standard.CommunicationChannel" uid="8f75ea9d-8337-4532-b3c8-0deda71ac03c"/>
+                <ID name="1.3 validar()" mc="Standard.CommunicationChannel" uid="8f75ea9d-8337-4532-b3c8-0deda71ac03c"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.3 getUsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[1.3 validar()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -258,29 +224,15 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="1.4. cargarObjeto()" mc="Standard.CommunicationChannel" uid="f639eda9-5187-4ae4-872d-f9f6ec25b97e"/>
+                <ID name="1.4. select_BD()" mc="Standard.CommunicationChannel" uid="c6b488e7-9091-46c3-afbc-2ec5bbe8330a"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.4. cargarObjeto()]]></ATT>
+                  <ATT name="Name"><![CDATA[1.4. select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="1f259f24-b67f-4e5d-b9f2-f3df4109892d"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="1.4. cargarObjeto()" mc="Standard.CommunicationChannel" uid="9c4a5432-e378-4ca4-b618-5c5afe4579ab"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.4. cargarObjeto()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="b75f96e4-d343-4585-a367-ecd5dd0e6c4c"/>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -355,30 +307,13 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ControlDatos" mc="Standard.CommunicationNode" uid="05c00530-30ad-4de9-b340-9910e7d10783"/>
+          <ID name="Control : Dron" mc="Standard.CommunicationNode" uid="05c00530-30ad-4de9-b340-9910e7d10783"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ControlDatos]]></ATT>
+            <ATT name="Name"><![CDATA[Control : Dron]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Started">
-              <OBJECT>
-                <ID name="2.3 guardarObjeto()" mc="Standard.CommunicationChannel" uid="eac6e7e1-da17-4475-9764-fb8e51411abd"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.3 guardarObjeto()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="b75f96e4-d343-4585-a367-ecd5dd0e6c4c"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
+          <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="vistaAñadirDron" mc="Standard.CommunicationNode" uid="fbd4fa2a-afc0-4a80-b7e9-17988d3762f6"/>
@@ -398,141 +333,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlDatos" mc="Standard.CommunicationNode" uid="05c00530-30ad-4de9-b340-9910e7d10783"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="3.4. getModelo()" mc="Standard.CommunicationChannel" uid="c255c2ad-c218-423a-b311-83b49e981468"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[3.4. getModelo()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="Modelo" mc="Standard.CommunicationNode" uid="63d80d3b-50e5-4d0a-a848-789560564b6a"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="b75f96e4-d343-4585-a367-ecd5dd0e6c4c"/>
-          <ATTRIBUTES>
-            <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ControlE/S]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Started">
-              <OBJECT>
-                <ID name="3.2 insert_BD()" mc="Standard.CommunicationChannel" uid="b72e7ebc-da15-4f1c-8498-875e3dfbd956"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[3.2 insert_BD()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="1.5. select_BD()" mc="Standard.CommunicationChannel" uid="1420b420-5699-4e11-b817-13d80e07217e"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.5. select_BD()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="3.1. cargarObjeto()" mc="Standard.CommunicationChannel" uid="f8caabc4-99c2-4bb1-b171-171fe678276c"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[3.1. cargarObjeto()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="Modelo" mc="Standard.CommunicationNode" uid="63d80d3b-50e5-4d0a-a848-789560564b6a"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="ControlE/S" mc="Standard.CommunicationNode" uid="1f259f24-b67f-4e5d-b9f2-f3df4109892d"/>
-          <ATTRIBUTES>
-            <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ControlE/S]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Started">
-              <OBJECT>
-                <ID name="1.5. select_BD()" mc="Standard.CommunicationChannel" uid="29fe5b65-bd95-4b8a-b503-5501ae4515cd"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.5. select_BD()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="2.4. guardarObjeto()" mc="Standard.CommunicationChannel" uid="6108f8a9-01ce-47e9-9b25-c138c5279412"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4. guardarObjeto()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Modelo" mc="Standard.CommunicationNode" uid="63d80d3b-50e5-4d0a-a848-789560564b6a"/>
-          <ATTRIBUTES>
-            <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Modelo]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Started">
-              <OBJECT>
-                <ID name="3.3. select_BD()" mc="Standard.CommunicationChannel" uid="5e596e4e-013b-4cce-bd13-5a2128b0850d"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[3.3. select_BD()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
+                      <ID name="Control : Dron" mc="Standard.CommunicationNode" uid="05c00530-30ad-4de9-b340-9910e7d10783"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
