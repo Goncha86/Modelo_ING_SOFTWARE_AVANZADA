@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Server" version="4">
+  <OBJECT>
+    <ID name="Server" mc="Standard.Package" uid="fb45d8e6-07d8-4715-8dfd-55ae1fd6e03c"/>
+    <PID name="DIAGRAMA DE COMPONENTES" mc="Standard.Package" uid="19925df9-da18-43bb-9cf7-a4e73e94f5ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Server]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PostgresSQL" mc="Standard.Package" uid="c82f859c-11b7-49d9-be4b-cc9afaad78ba"/>
+        <COMPID name="Archivos Permanentes" mc="Standard.Package" uid="b8a48e73-f6b1-4398-9a3d-e52c1eb8ae63"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

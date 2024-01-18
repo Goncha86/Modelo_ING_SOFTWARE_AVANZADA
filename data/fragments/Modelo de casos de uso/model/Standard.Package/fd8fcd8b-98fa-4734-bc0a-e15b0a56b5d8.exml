@@ -25,6 +25,7 @@
         <COMPID name="Datacenter - Analista" mc="Standard.Node" uid="a3f8ed13-f63e-48a1-9d21-37c81030a538"/>
         <COMPID name="Datacenter - Experto" mc="Standard.Node" uid="9ea9cc42-5dc7-4b58-9f77-66c26c78535e"/>
         <COMPID name="Punto de Acceso WiFi" mc="Standard.Node" uid="a314d0a7-d099-4946-91c7-4146707a7ff6"/>
+        <COMPID name="Technology Architecture" mc="Standard.Package" uid="48d0d94b-45db-4545-a741-bdd098d19537"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="DIAGRAMA DE DESPLIEGUE Deployment diagram" mc="Standard.DeploymentDiagram" uid="875e2fac-4962-4653-9b7d-638f592c2463"/>
