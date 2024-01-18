@@ -25,6 +25,72 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="Parcela" mc="Standard.CommunicationNode" uid="493546c6-04d0-4570-a107-aa510319b39d"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Parcela]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.3.1 listaParcelas()" mc="Standard.CommunicationChannel" uid="2706bfca-a439-4e78-bb24-53e188060bd2"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.3.1 listaParcelas()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.3.2 select_BD()" mc="Standard.CommunicationChannel" uid="355d0803-f263-4f93-94ca-048024048b06"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.3.2 select_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PuntosRuta" mc="Standard.CommunicationNode" uid="c93c2de3-65b5-48d6-96c9-49abdff48dfa"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[PuntosRuta]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.4.2 select_BD()" mc="Standard.CommunicationChannel" uid="f2d276ff-13a1-491e-8fd2-60070b4e7ce8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4.2 select_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedCollaboration">
         <OBJECT>
@@ -56,12 +122,28 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="r" mc="Standard.BindableInstance" uid="f14a3d7b-5b4c-413f-a58b-6ecc0fc0c755"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Controladora" mc="Standard.Actor" uid="d1028a63-0234-4a8f-aaff-3a8acef24090"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Communication Interaction Communication diagram" mc="Standard.CommunicationDiagram" uid="ccce9de5-d92a-4b31-8ac4-49687e3ad21a"/>
+        <COMPID name="Communication Interaction Communication diagram" mc="Standard.CommunicationDiagram" uid="ff4b95f3-2848-4ca9-ba70-cf2b6e934e70"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
