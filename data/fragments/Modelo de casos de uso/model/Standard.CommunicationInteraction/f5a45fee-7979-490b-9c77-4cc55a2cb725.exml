@@ -20,7 +20,7 @@
           <DEPENDENCIES>
             <LINK relation="Represented">
               <REFOBJ>
-                <ID name="" mc="Standard.BindableInstance" uid="456504a3-2125-4c56-8010-4c0744471c94"/>
+                <ID name="" mc="Standard.BindableInstance" uid="fef49557-efc2-435b-bc0a-38b8461ce385"/>
               </REFOBJ>
             </LINK>
             <COMP relation="Started">
@@ -66,38 +66,24 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+          <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ControlRuta]]></ATT>
+            <ATT name="Name"><![CDATA[ControlCliente]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.5 crearRuta()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
+                <ID name="2.3 listaClientes()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.5 crearRuta()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3 listaClientes()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="VistaProgramarVuelo" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="2.6.1 Pedido() C0()" mc="Standard.CommunicationChannel" uid="7298352b-eb0d-4db5-8cb8-8e0f6a40cc3f"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.6.1 Pedido() C0()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="Ruta" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+                      <ID name="VistaSacarInformeDeClientes" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -116,14 +102,28 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="2.4 listaClientes()" mc="Standard.CommunicationChannel" uid="dc49037b-c81e-41e0-81f7-1d58d4275535"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4 listaClientes()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="VistaProgramarVuelo" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+          <ID name="VistaSacarInformeDeClientes" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[VistaProgramarVuelo]]></ATT>
+            <ATT name="Name"><![CDATA[VistaSacarInformeDeClientes]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -137,7 +137,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -151,7 +151,21 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.6 crearInforme()" mc="Standard.CommunicationChannel" uid="f61ba066-842c-4e80-bd07-b13c203b5cbe"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.6 crearInforme()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -160,32 +174,18 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Ruta" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+          <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Ruta]]></ATT>
+            <ATT name="Name"><![CDATA[Cliente]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.6 comprobarDatos()" mc="Standard.CommunicationChannel" uid="60dd0bab-d0ae-4276-b02f-497a37274aee"/>
+                <ID name="2.5 select_BD()" mc="Standard.CommunicationChannel" uid="d6f518dd-1dde-4408-9792-cf190f6d594f"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.6 comprobarDatos()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="2.7 insert_BD()" mc="Standard.CommunicationChannel" uid="ebc15799-e9b5-498d-ab50-61e72eb3daf9"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.7 insert_BD()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.5 select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

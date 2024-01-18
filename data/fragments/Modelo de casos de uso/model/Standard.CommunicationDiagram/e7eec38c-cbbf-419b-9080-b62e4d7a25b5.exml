@@ -31,10 +31,10 @@
           <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+          <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="VistaProgramarVuelo" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+          <ID name="VistaSacarInformeDeClientes" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="2.1 vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="23fe5fff-732b-48e4-8cb2-9bb68f117894"/>
@@ -46,13 +46,10 @@
           <ID name="1.3. validar()" mc="Standard.CommunicationChannel" uid="8744b252-1a1f-48e2-bf68-d177fdcab321"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="Ruta" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+          <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="2.6 comprobarDatos()" mc="Standard.CommunicationChannel" uid="60dd0bab-d0ae-4276-b02f-497a37274aee"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="2.5 crearRuta()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
+          <ID name="2.3 listaClientes" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="1.1. vistaValidarUsuario() " mc="Standard.CommunicationChannel" uid="8adb7659-80de-447e-875f-a8b00c8ec1f6"/>
@@ -67,13 +64,7 @@
           <ID name="1.4 select_BD()" mc="Standard.CommunicationChannel" uid="a387a313-eda0-4b1e-abe4-46018331ef76"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="2.7 insert_BD()" mc="Standard.CommunicationChannel" uid="ebc15799-e9b5-498d-ab50-61e72eb3daf9"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="2.2 vistaProgramarVuelo" mc="Standard.CommunicationChannel" uid="b099ab63-8b9b-418c-840e-eb9528242553"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="2.6.1 Pedido() C0()" mc="Standard.CommunicationChannel" uid="7298352b-eb0d-4db5-8cb8-8e0f6a40cc3f"/>
         </REFOBJ>
       </LINK>
       <COMP relation="Descriptor">
