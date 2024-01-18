@@ -28,12 +28,12 @@
                 <DEPENDENCIES>
                   <COMP relation="StartToEndMessage">
                     <OBJECT>
-                      <ID name="1 validarUsuario()" mc="Standard.CommunicationMessage" uid="d286431e-21b2-4e42-907e-dd5072724142"/>
+                      <ID name="Cambio" mc="Standard.CommunicationMessage" uid="d286431e-21b2-4e42-907e-dd5072724142"/>
                       <ATTRIBUTES>
                         <ATT name="Argument"></ATT>
                         <ATT name="Sequence"></ATT>
                         <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"><![CDATA[1 validarUsuario()]]></ATT>
+                        <ATT name="Name"><![CDATA[Cambio]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
