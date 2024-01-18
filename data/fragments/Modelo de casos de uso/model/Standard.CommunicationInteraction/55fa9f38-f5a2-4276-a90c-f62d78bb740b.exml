@@ -89,10 +89,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ControlValidarUsuario" mc="Standard.CommunicationNode" uid="176daca8-2af8-4662-800b-d5b41c6dc704"/>
+          <ID name="ControlUsuario" mc="Standard.CommunicationNode" uid="176daca8-2af8-4662-800b-d5b41c6dc704"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ControlValidarUsuario]]></ATT>
+            <ATT name="Name"><![CDATA[ControlUsuario]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -112,9 +112,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="1.3. getUsuario()" mc="Standard.CommunicationChannel" uid="8744b252-1a1f-48e2-bf68-d177fdcab321"/>
+                <ID name="1.3. validar()" mc="Standard.CommunicationChannel" uid="8744b252-1a1f-48e2-bf68-d177fdcab321"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.3. getUsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[1.3. validar()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -170,9 +170,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="" mc="Standard.CommunicationChannel" uid="23fe5fff-732b-48e4-8cb2-9bb68f117894"/>
+                <ID name="2.1 vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="23fe5fff-732b-48e4-8cb2-9bb68f117894"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Name"><![CDATA[2.1 vistaValidarUsuario()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -184,15 +184,15 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="1.2. vistaValidarsuario()" mc="Standard.CommunicationChannel" uid="2ec57476-7e54-458e-9fb3-5f793ac3e6f7"/>
+                <ID name="1.2. validarUsuario()" mc="Standard.CommunicationChannel" uid="2ec57476-7e54-458e-9fb3-5f793ac3e6f7"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.2. vistaValidarsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[1.2. validarUsuario()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlValidarUsuario" mc="Standard.CommunicationNode" uid="176daca8-2af8-4662-800b-d5b41c6dc704"/>
+                      <ID name="ControlUsuario" mc="Standard.CommunicationNode" uid="176daca8-2af8-4662-800b-d5b41c6dc704"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -218,7 +218,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlValidarUsuario" mc="Standard.CommunicationNode" uid="176daca8-2af8-4662-800b-d5b41c6dc704"/>
+                      <ID name="ControlUsuario" mc="Standard.CommunicationNode" uid="176daca8-2af8-4662-800b-d5b41c6dc704"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -227,6 +227,20 @@
                 <ID name="1.4. select_BD()" mc="Standard.CommunicationChannel" uid="c6b488e7-9091-46c3-afbc-2ec5bbe8330a"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[1.4. select_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="select_BD()" mc="Standard.CommunicationChannel" uid="a387a313-eda0-4b1e-abe4-46018331ef76"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -264,38 +278,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.1. vistaCrearCliente()" mc="Standard.CommunicationChannel" uid="172d88ec-59fc-4d1d-83e0-996261727736"/>
+                <ID name="2.2 vistaCrearCliente" mc="Standard.CommunicationChannel" uid="b099ab63-8b9b-418c-840e-eb9528242553"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.1. vistaCrearCliente()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.2 vistaCrearCliente]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <COMP relation="StartToEndMessage">
-                    <OBJECT>
-                      <ID name="" mc="Standard.CommunicationMessage" uid="28123dab-fbad-4657-ac61-9742d865d385"/>
-                      <ATTRIBUTES>
-                        <ATT name="Argument"></ATT>
-                        <ATT name="Sequence"></ATT>
-                        <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                  <COMP relation="EndToStartMessage">
-                    <OBJECT>
-                      <ID name="2.6. vistaMenuInicio()" mc="Standard.CommunicationMessage" uid="839b1b03-64ab-46ea-be51-910abe39144a"/>
-                      <ATTRIBUTES>
-                        <ATT name="Argument"></ATT>
-                        <ATT name="Sequence"></ATT>
-                        <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"><![CDATA[2.6. vistaMenuInicio()]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                   <LINK relation="End">
                     <REFOBJ>
                       <ID name="VistaCrearCliente" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>

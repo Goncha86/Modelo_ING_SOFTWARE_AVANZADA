@@ -75,15 +75,29 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.2. comprobarCliente()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
+                <ID name="2.3 crearCliente()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.2. comprobarCliente()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3 crearCliente()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
                       <ID name="VistaCrearCliente" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.4.1 Cliente() C0()" mc="Standard.CommunicationChannel" uid="7298352b-eb0d-4db5-8cb8-8e0f6a40cc3f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4.1 Cliente() C0()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -110,15 +124,29 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.3. setCliente()" mc="Standard.CommunicationChannel" uid="60dd0bab-d0ae-4276-b02f-497a37274aee"/>
+                <ID name="2.4 comprobarDatos()" mc="Standard.CommunicationChannel" uid="60dd0bab-d0ae-4276-b02f-497a37274aee"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.3. setCliente()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.4 comprobarDatos()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
                       <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="insert_BD()" mc="Standard.CommunicationChannel" uid="ebc15799-e9b5-498d-ab50-61e72eb3daf9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[insert_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
