@@ -25,9 +25,9 @@
             </LINK>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="1.1. vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="8adb7659-80de-447e-875f-a8b00c8ec1f6"/>
+                <ID name="1.1. vistaValidarUsuario() CAMBIO" mc="Standard.CommunicationChannel" uid="8adb7659-80de-447e-875f-a8b00c8ec1f6"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[1.1. vistaValidarUsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[1.1. vistaValidarUsuario() CAMBIO]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
