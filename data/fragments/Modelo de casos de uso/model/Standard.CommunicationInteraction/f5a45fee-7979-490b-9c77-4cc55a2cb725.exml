@@ -44,12 +44,12 @@
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                     <OBJECT>
-                      <ID name="2.crearCliente()" mc="Standard.CommunicationMessage" uid="aebd095c-e8ad-4b22-a65a-634afaab183d"/>
+                      <ID name="2. CrearPedido()" mc="Standard.CommunicationMessage" uid="aebd095c-e8ad-4b22-a65a-634afaab183d"/>
                       <ATTRIBUTES>
                         <ATT name="Argument"></ATT>
                         <ATT name="Sequence"></ATT>
                         <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"><![CDATA[2.crearCliente()]]></ATT>
+                        <ATT name="Name"><![CDATA[2. CrearPedido()]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>

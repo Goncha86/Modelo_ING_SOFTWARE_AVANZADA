@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Alta Dron" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dar de Alta Dron" version="4">
   <OBJECT>
-    <ID name="Alta Dron" mc="Standard.Package" uid="19503ead-537d-4f69-883c-f439e0eaeac2"/>
+    <ID name="Dar de Alta Dron" mc="Standard.Package" uid="19503ead-537d-4f69-883c-f439e0eaeac2"/>
     <PID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Alta Dron]]></ATT>
+      <ATT name="Name"><![CDATA[Dar de Alta Dron]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
