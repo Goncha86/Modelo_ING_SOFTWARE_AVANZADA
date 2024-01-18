@@ -1,5 +1,9 @@
-#Wed Jan 17 17:21:30 CET 2024
+#Thu Jan 18 14:46:54 CET 2024
+org.modelio.app.diagram.editor.OpenedDiagrams4='Interaction Sequence diagram' {0f01fe9a-a717-4ecf-84b1-b000b1d6850c} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Interaction Sequence diagram' {9faca091-ad78-4c41-a632-e6250981b3a6} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Interaction' {ab6e2d0a-a1c5-4690-afdb-b411b6aab3fe} Standard.SequenceDiagram
 >>>>>>>=main
+org.modelio.app.diagram.editor.OpenedDiagrams1='Interaction Sequence diagram' {8a4d9167-088f-4f3a-982f-6db05581d6b9} Standard.SequenceDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
-=\=\=\=\=\=\=
 <<<<<<<=Updated upstream
+=\=\=\=\=\=\=
