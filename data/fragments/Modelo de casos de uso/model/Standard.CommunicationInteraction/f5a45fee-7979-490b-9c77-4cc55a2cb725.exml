@@ -66,24 +66,24 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+          <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ControlCliente]]></ATT>
+            <ATT name="Name"><![CDATA[ControlPedido]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.3 listaClientes()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
+                <ID name="2.3 listaPedidos()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.3 listaClientes()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3 listaPedidos()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="VistaSacarInformeDeClientes" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+                      <ID name="VistaSacarInformeDePedidosEImpagos" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -103,15 +103,29 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.4 listaClientes()" mc="Standard.CommunicationChannel" uid="dc49037b-c81e-41e0-81f7-1d58d4275535"/>
+                <ID name="2.3.1 listaPedidos()" mc="Standard.CommunicationChannel" uid="dc49037b-c81e-41e0-81f7-1d58d4275535"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4 listaClientes()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3.1 listaPedidos()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+                      <ID name="Pedido" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.4.1 listaImpagos()" mc="Standard.CommunicationChannel" uid="14556ad6-d2cd-475f-ac6a-c436fa46da2f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4.1 listaImpagos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Pago" mc="Standard.CommunicationNode" uid="05c21ef3-3543-4869-8a9a-588a2112723a"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -120,10 +134,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="VistaSacarInformeDeClientes" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+          <ID name="VistaSacarInformeDePedidosEImpagos" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[VistaSacarInformeDeClientes]]></ATT>
+            <ATT name="Name"><![CDATA[VistaSacarInformeDePedidosEImpagos]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -137,7 +151,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -151,21 +165,35 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.6 crearInforme()" mc="Standard.CommunicationChannel" uid="f61ba066-842c-4e80-bd07-b13c203b5cbe"/>
+                <ID name="2.5 crearInforme()" mc="Standard.CommunicationChannel" uid="f61ba066-842c-4e80-bd07-b13c203b5cbe"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.6 crearInforme()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.5 crearInforme()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlCliente" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.4 listaImpagos()" mc="Standard.CommunicationChannel" uid="c980d9ad-8a85-4e4f-aa0b-9e4f00c1bc33"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4 listaImpagos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -174,18 +202,18 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Cliente" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+          <ID name="Pedido" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Cliente]]></ATT>
+            <ATT name="Name"><![CDATA[Pedido]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.5 select_BD()" mc="Standard.CommunicationChannel" uid="d6f518dd-1dde-4408-9792-cf190f6d594f"/>
+                <ID name="2.3.2 select_BD()" mc="Standard.CommunicationChannel" uid="d6f518dd-1dde-4408-9792-cf190f6d594f"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.5 select_BD()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3.2 select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
