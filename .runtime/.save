@@ -1,12 +1,5 @@
-#Fri Jan 19 14:51:01 CET 2024
-org.modelio.app.diagram.editor.OpenedDiagrams4='Crear clientes' {9a441010-0d29-4e9a-a474-3577bde7c97b} Standard.CommunicationDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams3='InformePedidosEImpagos' {9135c14f-75e7-4003-9917-85d75c198ee5} Standard.CommunicationDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Programar vuelos' {56f7cd3b-20e0-4018-a076-74408d5fa312} Standard.CommunicationDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams1='Colaboracion altaDron' {5547bb6d-e0e6-4f5f-90c9-0e8373dc8bce} Standard.CommunicationDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='ExportacionXML' {a08e8a2b-f77f-4300-afda-615740750c64} Standard.CommunicationDiagram
+#Fri Jan 19 17:42:58 CET 2024
 >>>>>>>=main
-<<<<<<<=Updated upstream
-org.modelio.app.diagram.editor.OpenedDiagrams7='Informe Clientes' {9c944697-7b43-4053-a219-4f278f54f15a} Standard.CommunicationDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams6='RegistrarPedido' {bd59df6a-908a-49e7-b6b6-7feeca1026af} Standard.CommunicationDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams5='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
 =\=\=\=\=\=\=
+<<<<<<<=Updated upstream

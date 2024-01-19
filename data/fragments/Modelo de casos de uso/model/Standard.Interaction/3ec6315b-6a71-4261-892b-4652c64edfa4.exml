@@ -20,13 +20,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="listaImagenes = recibirImagenes(imagenes:array):array" mc="Standard.Message" uid="78e47b40-c7d5-4a15-a1d4-8f071310c1b6"/>
+                <ID name="listaImagenes = listaFotosParcela(in idParcela: integer):array" mc="Standard.Message" uid="78e47b40-c7d5-4a15-a1d4-8f071310c1b6"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[5]]></ATT>
-                  <ATT name="Name"><![CDATA[listaImagenes = recibirImagenes(imagenes:array):array]]></ATT>
+                  <ATT name="Name"><![CDATA[listaImagenes = listaFotosParcela(in idParcela: integer):array]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -145,13 +145,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="listaImagenes = enviarImagenes():array" mc="Standard.Message" uid="f04abdd6-078b-430c-99a6-b923c3b5fd70"/>
+                <ID name="listaImagenes = enviarImagenesIA():array" mc="Standard.Message" uid="f04abdd6-078b-430c-99a6-b923c3b5fd70"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[7]]></ATT>
-                  <ATT name="Name"><![CDATA[listaImagenes = enviarImagenes():array]]></ATT>
+                  <ATT name="Name"><![CDATA[listaImagenes = enviarImagenesIA():array]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -395,13 +395,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="ValidarUsuario(credenciales:array)" mc="Standard.Message" uid="21b21644-84a2-4783-b417-556e764fced0"/>
+                <ID name="validarUsuario(credenciales:array)" mc="Standard.Message" uid="21b21644-84a2-4783-b417-556e764fced0"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ValidarUsuario(credenciales:array)]]></ATT>
+                  <ATT name="Name"><![CDATA[validarUsuario(credenciales:array)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -547,7 +547,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Interaction Sequence diagram" mc="Standard.SequenceDiagram" uid="0f01fe9a-a717-4ecf-84b1-b000b1d6850c"/>
+        <COMPID name="Crear informe IA" mc="Standard.SequenceDiagram" uid="0f01fe9a-a717-4ecf-84b1-b000b1d6850c"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

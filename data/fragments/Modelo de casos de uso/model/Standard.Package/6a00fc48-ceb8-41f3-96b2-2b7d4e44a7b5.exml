@@ -16,6 +16,9 @@
       <COMP relation="OwnedBehavior">
         <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="5be56d59-3700-428b-ba53-df5ae5422bd3"/>
       </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Comercial" mc="Standard.Actor" uid="15172417-d66f-4630-a9ef-0e0e96b084bf"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="ba683c03-0336-42bc-b305-1976c7697627"/>

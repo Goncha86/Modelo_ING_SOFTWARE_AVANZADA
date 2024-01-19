@@ -145,13 +145,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="ruta = crearRuta(datos array):Ruta" mc="Standard.Message" uid="93aeb57e-e525-4a05-a86f-a8e1714f3b20"/>
+                <ID name="Ruta = crearRuta(datos array):Ruta" mc="Standard.Message" uid="93aeb57e-e525-4a05-a86f-a8e1714f3b20"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[7]]></ATT>
-                  <ATT name="Name"><![CDATA[ruta = crearRuta(datos array):Ruta]]></ATT>
+                  <ATT name="Name"><![CDATA[Ruta = crearRuta(datos array):Ruta]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -450,13 +450,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="ValidarUsuario(credenciales:array)" mc="Standard.Message" uid="544c3305-cf07-459a-a22a-ca3edcb35aed"/>
+                <ID name="validarUsuario(credenciales:array)" mc="Standard.Message" uid="544c3305-cf07-459a-a22a-ca3edcb35aed"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ValidarUsuario(credenciales:array)]]></ATT>
+                  <ATT name="Name"><![CDATA[validarUsuario(credenciales:array)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -602,7 +602,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Interaction Sequence diagram" mc="Standard.SequenceDiagram" uid="8a4d9167-088f-4f3a-982f-6db05581d6b9"/>
+        <COMPID name="Programar vuelo" mc="Standard.SequenceDiagram" uid="8a4d9167-088f-4f3a-982f-6db05581d6b9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

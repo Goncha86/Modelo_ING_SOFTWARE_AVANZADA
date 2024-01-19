@@ -112,9 +112,33 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="1. validarUsuario()" mc="Standard.CommunicationMessage" uid="8ad0dce6-dffa-45d5-9a61-d5eb9896d896"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[1. validarUsuario()]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="2. crearRuta()" mc="Standard.CommunicationMessage" uid="80910cc6-c960-478e-99a1-82a0445023ad"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[2. crearRuta()]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaValidarUsuario" mc="Standard.CommunicationNode" uid="29cd72d8-6964-4459-894f-e5224adef338"/>
+                      <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="29cd72d8-6964-4459-894f-e5224adef338"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -123,10 +147,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="vistaValidarUsuario" mc="Standard.CommunicationNode" uid="29cd72d8-6964-4459-894f-e5224adef338"/>
+          <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="29cd72d8-6964-4459-894f-e5224adef338"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[vistaValidarUsuario]]></ATT>
+            <ATT name="Name"><![CDATA[VistaValidarUsuario]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -146,15 +170,15 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.1 vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="52e941cc-48b5-48d2-a728-2bc626950294"/>
+                <ID name="2.1 vistaMenuInicio()" mc="Standard.CommunicationChannel" uid="52e941cc-48b5-48d2-a728-2bc626950294"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.1 vistaValidarUsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.1 vistaMenuInicio()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="037aed52-9ee7-4bc2-aebb-39ddb4f929df"/>
+                      <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="037aed52-9ee7-4bc2-aebb-39ddb4f929df"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -224,10 +248,10 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="037aed52-9ee7-4bc2-aebb-39ddb4f929df"/>
+          <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="037aed52-9ee7-4bc2-aebb-39ddb4f929df"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[vistaMenuInicio]]></ATT>
+            <ATT name="Name"><![CDATA[VistaMenuInicio]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -287,43 +311,15 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.5 listaRuta()" mc="Standard.CommunicationChannel" uid="fc77e570-d050-41f2-9664-a8adc826a12d"/>
+                <ID name="2.5 crearRuta()" mc="Standard.CommunicationChannel" uid="fc77e570-d050-41f2-9664-a8adc826a12d"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.5 listaRuta()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.5 crearRuta()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
                       <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="8e3af32e-de99-48ca-a1b1-4f49db54a07d"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="2.3.1 listaParcelas()" mc="Standard.CommunicationChannel" uid="cc494330-07c5-4ba9-981f-1dce2416cc80"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.3.1 listaParcelas()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="Parcela" mc="Standard.CommunicationNode" uid="890858f9-0d76-4bbf-831b-ef041157d292"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="2.4.1 listaPuntoRuta" mc="Standard.CommunicationChannel" uid="0e9bb655-8b29-4cea-a435-2970143dc8fe"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4.1 listaPuntoRuta]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="PuntosRuta" mc="Standard.CommunicationNode" uid="fb69f63f-f4db-4cdf-a22b-87a24e8df9a9"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -355,15 +351,43 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.6.1 Pedido() C0()" mc="Standard.CommunicationChannel" uid="08225eb7-86ca-4a09-8fc9-b3fade49a858"/>
+                <ID name="2.6.1 Ruta() C0()" mc="Standard.CommunicationChannel" uid="08225eb7-86ca-4a09-8fc9-b3fade49a858"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.6.1 Pedido() C0()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.6.1 Ruta() C0()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
                       <ID name="Ruta" mc="Standard.CommunicationNode" uid="d65abda5-4ce0-4132-8bea-084c9ea4fbc4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.4.1. listaPuntosRuta()" mc="Standard.CommunicationChannel" uid="f5deec3d-6f49-4b32-bb78-c4051a1b28c7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4.1. listaPuntosRuta()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="PuntosRuta" mc="Standard.CommunicationNode" uid="fb69f63f-f4db-4cdf-a22b-87a24e8df9a9"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.3.1. listaParcelas()" mc="Standard.CommunicationChannel" uid="acd27210-3892-4c23-a2a8-84d3a3b672ef"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.3.1. listaParcelas()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Parcela" mc="Standard.CommunicationNode" uid="890858f9-0d76-4bbf-831b-ef041157d292"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -501,7 +525,6 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Communication Interaction Communication diagram" mc="Standard.CommunicationDiagram" uid="ff4b95f3-2848-4ca9-ba70-cf2b6e934e70"/>
         <COMPID name="Programar vuelos" mc="Standard.CommunicationDiagram" uid="56f7cd3b-20e0-4018-a076-74408d5fa312"/>
       </COMP>
     </DEPENDENCIES>

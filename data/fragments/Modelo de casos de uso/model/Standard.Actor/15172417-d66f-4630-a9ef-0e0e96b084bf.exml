@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Comercial" version="4">
   <OBJECT>
-    <ID name="Comercial" mc="Standard.Actor" uid="2d4c2190-dc6d-4656-ae3b-216b2ae975a6"/>
-    <PID name="Crear Clientes" mc="Standard.Package" uid="dd098d55-f594-43ad-96e4-e4bf343b2c87"/>
+    <ID name="Comercial" mc="Standard.Actor" uid="15172417-d66f-4630-a9ef-0e0e96b084bf"/>
+    <PID name="Informe clientes" mc="Standard.Package" uid="6a00fc48-ceb8-41f3-96b2-2b7d4e44a7b5"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

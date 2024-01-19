@@ -56,7 +56,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="pedirFotosParcela" mc="Standard.Operation" uid="cfc6942d-6232-4318-9d77-d1ade52a4704"/>
+          <ID name="listaFotosParcela" mc="Standard.Operation" uid="cfc6942d-6232-4318-9d77-d1ade52a4704"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -64,7 +64,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[pedirFotosParcela]]></ATT>
+            <ATT name="Name"><![CDATA[listaFotosParcela]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

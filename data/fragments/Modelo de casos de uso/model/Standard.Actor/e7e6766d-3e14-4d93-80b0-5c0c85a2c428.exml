@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Comercial" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Comercial/Secretario" version="4">
   <OBJECT>
-    <ID name="Comercial" mc="Standard.Actor" uid="2d4c2190-dc6d-4656-ae3b-216b2ae975a6"/>
-    <PID name="Crear Clientes" mc="Standard.Package" uid="dd098d55-f594-43ad-96e4-e4bf343b2c87"/>
+    <ID name="Comercial/Secretario" mc="Standard.Actor" uid="e7e6766d-3e14-4d93-80b0-5c0c85a2c428"/>
+    <PID name="Informe pedidos e impagos" mc="Standard.Package" uid="41f51bb9-c1ae-4400-9eaf-147ba72ba835"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Comercial]]></ATT>
+      <ATT name="Name"><![CDATA[Comercial/Secretario]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

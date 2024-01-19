@@ -75,13 +75,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="ValidarUsuario(credenciales:array)" mc="Standard.Message" uid="5be89f9e-5250-466c-b618-e416af444d80"/>
+                <ID name="validarUsuario(credenciales:array)" mc="Standard.Message" uid="5be89f9e-5250-466c-b618-e416af444d80"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ValidarUsuario(credenciales:array)]]></ATT>
+                  <ATT name="Name"><![CDATA[validarUsuario(credenciales:array)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -200,13 +200,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="Cliente = CrearCliente(datos:array):Cliente" mc="Standard.Message" uid="5e45fad5-9a78-45df-a94c-2968f378a19b"/>
+                <ID name="Cliente = crearCliente(datos:array):Cliente" mc="Standard.Message" uid="5e45fad5-9a78-45df-a94c-2968f378a19b"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[5]]></ATT>
-                  <ATT name="Name"><![CDATA[Cliente = CrearCliente(datos:array):Cliente]]></ATT>
+                  <ATT name="Name"><![CDATA[Cliente = crearCliente(datos:array):Cliente]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -477,7 +477,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Interaction" mc="Standard.SequenceDiagram" uid="ab6e2d0a-a1c5-4690-afdb-b411b6aab3fe"/>
+        <COMPID name="Crear Clientes" mc="Standard.SequenceDiagram" uid="ab6e2d0a-a1c5-4690-afdb-b411b6aab3fe"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

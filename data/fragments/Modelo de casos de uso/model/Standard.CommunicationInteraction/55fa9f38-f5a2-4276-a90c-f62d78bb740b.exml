@@ -127,9 +127,9 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.4.2 insert_BD()" mc="Standard.CommunicationChannel" uid="c406a8f6-5bad-47ec-b4a9-57c05960bc13"/>
+                <ID name="2.7. insert_BD()" mc="Standard.CommunicationChannel" uid="c406a8f6-5bad-47ec-b4a9-57c05960bc13"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4.2 insert_BD()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.7. insert_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -170,21 +170,21 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
+                      <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.1 vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="23fe5fff-732b-48e4-8cb2-9bb68f117894"/>
+                <ID name="2.1 vistaMenuInicio()" mc="Standard.CommunicationChannel" uid="23fe5fff-732b-48e4-8cb2-9bb68f117894"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.1 vistaValidarUsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.1 vistaMenuInicio()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
+                      <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -261,10 +261,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
+          <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="a110f2cf-3d06-402a-8615-cd780f28d1b1"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[vistaMenuInicio]]></ATT>
+            <ATT name="Name"><![CDATA[VistaMenuInicio]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -278,7 +278,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaAñadirDron" mc="Standard.CommunicationNode" uid="fbd4fa2a-afc0-4a80-b7e9-17988d3762f6"/>
+                      <ID name="VistaAñadirDron" mc="Standard.CommunicationNode" uid="fbd4fa2a-afc0-4a80-b7e9-17988d3762f6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -310,9 +310,9 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="comprobarDatos()" mc="Standard.CommunicationChannel" uid="68a7b105-b0f0-4bcf-ae69-b04dba79f738"/>
+                <ID name="2.6. comprobarDatos()" mc="Standard.CommunicationChannel" uid="68a7b105-b0f0-4bcf-ae69-b04dba79f738"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[comprobarDatos()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.6. comprobarDatos()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -324,9 +324,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.4 listaModelos()" mc="Standard.CommunicationChannel" uid="9fc919dd-631d-44d1-833b-cba2c7e4eb04"/>
+                <ID name="2.3.1. listaModelos()" mc="Standard.CommunicationChannel" uid="9fc919dd-631d-44d1-833b-cba2c7e4eb04"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4 listaModelos()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3.1. listaModelos()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -338,9 +338,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Dron() C0()" mc="Standard.CommunicationChannel" uid="b0aa47f5-c971-4750-8054-c56c7443c10e"/>
+                <ID name="2.6.1. Dron() C0()" mc="Standard.CommunicationChannel" uid="b0aa47f5-c971-4750-8054-c56c7443c10e"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[Dron() C0()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.6.1. Dron() C0()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -355,10 +355,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="vistaAñadirDron" mc="Standard.CommunicationNode" uid="fbd4fa2a-afc0-4a80-b7e9-17988d3762f6"/>
+          <ID name="VistaAñadirDron" mc="Standard.CommunicationNode" uid="fbd4fa2a-afc0-4a80-b7e9-17988d3762f6"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[vistaAñadirDron]]></ATT>
+            <ATT name="Name"><![CDATA[VistaAñadirDron]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -404,9 +404,9 @@
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.4.1 select_BD()" mc="Standard.CommunicationChannel" uid="5528a4ac-80f8-4cd7-bd00-e7d5b56d7602"/>
+                <ID name="2.3.2. select_BD()" mc="Standard.CommunicationChannel" uid="5528a4ac-80f8-4cd7-bd00-e7d5b56d7602"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4.1 select_BD()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3.2. select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -437,7 +437,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Colaboracion altaDron" mc="Standard.CommunicationDiagram" uid="5547bb6d-e0e6-4f5f-90c9-0e8373dc8bce"/>
+        <COMPID name="Dar de Alta Dron" mc="Standard.CommunicationDiagram" uid="5547bb6d-e0e6-4f5f-90c9-0e8373dc8bce"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

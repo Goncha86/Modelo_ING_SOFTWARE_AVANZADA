@@ -44,12 +44,12 @@
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                     <OBJECT>
-                      <ID name="2. CrearPedido()" mc="Standard.CommunicationMessage" uid="aebd095c-e8ad-4b22-a65a-634afaab183d"/>
+                      <ID name="2. exportarXML()" mc="Standard.CommunicationMessage" uid="aebd095c-e8ad-4b22-a65a-634afaab183d"/>
                       <ATTRIBUTES>
                         <ATT name="Argument"></ATT>
                         <ATT name="Sequence"></ATT>
                         <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"><![CDATA[2. CrearPedido()]]></ATT>
+                        <ATT name="Name"><![CDATA[2. exportarXML()]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -131,9 +131,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.4listaRuta()" mc="Standard.CommunicationChannel" uid="2ce3be1a-e491-43ae-9b9f-503de3207e8e"/>
+                <ID name="2.3.1. listaRuta()" mc="Standard.CommunicationChannel" uid="2ce3be1a-e491-43ae-9b9f-503de3207e8e"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4listaRuta()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3.1. listaRuta()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -213,9 +213,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.5 exportarXML()" mc="Standard.CommunicationChannel" uid="283646da-a4e5-4bcc-92cb-92e20e1e4ecb"/>
+                <ID name="2.4 exportarXML()" mc="Standard.CommunicationChannel" uid="283646da-a4e5-4bcc-92cb-92e20e1e4ecb"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.5 exportarXML()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.4 exportarXML()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -253,9 +253,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.4.1 select_BD()" mc="Standard.CommunicationChannel" uid="ab5bfb1b-31e7-4746-b4e5-894bde7a6c58"/>
+                <ID name="2.3.2. select_BD()" mc="Standard.CommunicationChannel" uid="ab5bfb1b-31e7-4746-b4e5-894bde7a6c58"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4.1 select_BD()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3.2. select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -290,9 +290,33 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="1. validarUsuario()" mc="Standard.CommunicationMessage" uid="b2ab694f-23cc-466d-82f7-a2eba713b278"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[1. validarUsuario()]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="2. crearCliente()" mc="Standard.CommunicationMessage" uid="89bf6c58-e0f2-4fcd-a8e1-e61c215542df"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[2. crearCliente()]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaValidarUsuario" mc="Standard.CommunicationNode" uid="6100f948-3b92-4cc3-83c4-e2791b0acef9"/>
+                      <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="6100f948-3b92-4cc3-83c4-e2791b0acef9"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -301,10 +325,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="vistaValidarUsuario" mc="Standard.CommunicationNode" uid="6100f948-3b92-4cc3-83c4-e2791b0acef9"/>
+          <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="6100f948-3b92-4cc3-83c4-e2791b0acef9"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[vistaValidarUsuario]]></ATT>
+            <ATT name="Name"><![CDATA[VistaValidarUsuario]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -324,15 +348,15 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.1 vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="52707c3f-74e3-4dbf-a14c-3adfd1d31ed9"/>
+                <ID name="2.1 vistaMenuInicio()" mc="Standard.CommunicationChannel" uid="52707c3f-74e3-4dbf-a14c-3adfd1d31ed9"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.1 vistaValidarUsuario()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.1 vistaMenuInicio()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="ab07679b-8c58-485c-a9c8-6b501d5d3152"/>
+                      <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="ab07679b-8c58-485c-a9c8-6b501d5d3152"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -402,10 +426,10 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="ab07679b-8c58-485c-a9c8-6b501d5d3152"/>
+          <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="ab07679b-8c58-485c-a9c8-6b501d5d3152"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[vistaMenuInicio]]></ATT>
+            <ATT name="Name"><![CDATA[VistaMenuInicio]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -419,7 +443,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="vistaCrearCliente" mc="Standard.CommunicationNode" uid="80d17b6e-de65-4767-b2fc-2ea7ec20ea51"/>
+                      <ID name="VistaCrearCliente" mc="Standard.CommunicationNode" uid="80d17b6e-de65-4767-b2fc-2ea7ec20ea51"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -428,10 +452,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="vistaCrearCliente" mc="Standard.CommunicationNode" uid="80d17b6e-de65-4767-b2fc-2ea7ec20ea51"/>
+          <ID name="VistaCrearCliente" mc="Standard.CommunicationNode" uid="80d17b6e-de65-4767-b2fc-2ea7ec20ea51"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[vistaCrearCliente]]></ATT>
+            <ATT name="Name"><![CDATA[VistaCrearCliente]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -546,7 +570,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="comercial" mc="Standard.Actor" uid="2d4c2190-dc6d-4656-ae3b-216b2ae975a6"/>
+                    <ID name="Comercial" mc="Standard.Actor" uid="2d4c2190-dc6d-4656-ae3b-216b2ae975a6"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -555,7 +579,6 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Communication Interaction Communication diagram" mc="Standard.CommunicationDiagram" uid="e7eec38c-cbbf-419b-9080-b62e4d7a25b5"/>
         <COMPID name="Crear clientes" mc="Standard.CommunicationDiagram" uid="9a441010-0d29-4e9a-a474-3577bde7c97b"/>
       </COMP>
     </DEPENDENCIES>
