@@ -16,10 +16,35 @@
         <COMPID name="DIAGRAMAS SECUENCIA" mc="Standard.Package" uid="f6b15e01-1f7f-4596-b303-73abc898ec75"/>
         <COMPID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
         <COMPID name="ClasesUML" mc="Standard.Package" uid="998f3cc3-b4bd-439b-b268-d01042614725"/>
-        <COMPID name="DIAGRAMAS PATRONES" mc="Standard.Package" uid="04e4f544-c146-49d2-a567-083c3216f8c6"/>
+        <COMPID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="fd8fcd8b-98fa-4734-bc0a-e15b0a56b5d8"/>
+        <COMPID name="DIAGRAMA DE COMPONENTES" mc="Standard.Package" uid="19925df9-da18-43bb-9cf7-a4e73e94f5ae"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="Modelo de casos de uso" mc="Infrastructure.DiagramSet" uid="767584a4-b784-4e7a-931b-136744f95250"/>
+      </COMP>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="64333695-afd9-4842-8f5d-b084746a46c5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="8ef5a94d-4bb2-4a7e-8cfb-385863122ea1"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[4.0.00]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="togaf.modelVersion" mc="Infrastructure.TagType" uid="8e820c6c-b121-4db6-a02b-6762820c3092"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

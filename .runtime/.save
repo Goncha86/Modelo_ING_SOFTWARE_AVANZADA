@@ -1,5 +1,12 @@
-#Fri Jan 19 18:27:45 CET 2024
->>>>>>>=main
+#Thu Jan 18 20:27:24 CET 2024
+org.modelio.app.module.propertytab.TogafArchitect\ v3.10.01\ GModule\ @file\:///C\:/Users/jonbu/.modelio/4.1/modules/TogafArchitect_3.10.01/TogafArchitect_3.10.01.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.diagram.editor.OpenedDiagrams3='DIAGRAMA DE COMPONENTES Deployment diagram' {3ae902ec-42c3-42d2-bf1f-2a34ec12df64} Standard.DeploymentDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Network Computing Hardware diagram' {bef91e90-382d-487c-bfce-73ae18f60582} Standard.StaticDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='DIAGRAMA DE DESPLIEGUE Deployment diagram' {875e2fac-4962-4653-9b7d-638f592c2463} Standard.DeploymentDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='Diagrama clases de dise\u00F1o' {ae874093-2951-4037-9740-593233be82a4} Standard.ClassDiagram
-=\=\=\=\=\=\=
+>>>>>>>=main
+org.modelio.app.module.propertytab.TogafArchitect\ v3.10.01\ GModule\ @file\:///C\:/Users/jonbu/.modelio/4.1/modules/TogafArchitect_3.10.01/TogafArchitect_3.10.01.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
 <<<<<<<=Updated upstream
+org.modelio.app.module.propertytab.TogafArchitect\ v3.10.01\ GModule\ @file\:///C\:/Users/jonbu/.modelio/4.1/modules/TogafArchitect_3.10.01/TogafArchitect_3.10.01.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.module.propertytab.TogafArchitect\ v3.10.01\ GModule\ @file\:///C\:/Users/jonbu/.modelio/4.1/modules/TogafArchitect_3.10.01/TogafArchitect_3.10.01.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+=\=\=\=\=\=\=
