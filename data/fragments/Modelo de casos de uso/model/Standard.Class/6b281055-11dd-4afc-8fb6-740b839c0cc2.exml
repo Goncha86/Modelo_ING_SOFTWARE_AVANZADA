@@ -73,7 +73,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="getTodosDron" mc="Standard.Operation" uid="7e5aa6e7-997a-431f-9a56-b994c2bc97ac"/>
+          <ID name="listaDrones" mc="Standard.Operation" uid="7e5aa6e7-997a-431f-9a56-b994c2bc97ac"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -81,7 +81,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[getTodosDron]]></ATT>
+            <ATT name="Name"><![CDATA[listaDrones]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -112,7 +112,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="comprobarDatosDron" mc="Standard.Operation" uid="3ecc2e01-7ad6-4d94-a9e1-e119c894e750"/>
+          <ID name="comprobarDatos" mc="Standard.Operation" uid="3ecc2e01-7ad6-4d94-a9e1-e119c894e750"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -120,7 +120,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[comprobarDatosDron]]></ATT>
+            <ATT name="Name"><![CDATA[comprobarDatos]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
