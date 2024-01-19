@@ -27,14 +27,6 @@
         <COMPID name="Exportación a XML" mc="Standard.Activity" uid="d7a41e83-31a0-48f2-a004-76a532a1d57c"/>
         <COMPID name="Generación del informe a partir de las imágenes seleccionadas con exportación a la nube y notificación por correo al cliente" mc="Standard.Activity" uid="b01a5386-6d88-4826-bf2c-78fa173cde02"/>
       </COMP>
-      <COMP relation="OwnedElement">
-        <COMPID name="Business Layer" mc="Standard.Package" uid="2984237c-da1f-46ee-8e48-338565e3fdb8"/>
-        <COMPID name="Application Layer" mc="Standard.Package" uid="19d3ba8c-0613-4b51-893f-a8b3d73da761"/>
-        <COMPID name="Technology Architecture" mc="Standard.Package" uid="fae485cc-02e4-45b9-be5f-1336d9162b86"/>
-      </COMP>
-      <LINK relation="Extension">
-        <FOREIGNID name="TogafRoot" mc="Infrastructure.Stereotype" uid="374ea675-764e-11e0-8277-bc305ba4815c"/>
-      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
