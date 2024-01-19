@@ -21,6 +21,30 @@
       <COMP relation="DiagramRoot">
         <COMPID name="Modelo de casos de uso" mc="Infrastructure.DiagramSet" uid="767584a4-b784-4e7a-931b-136744f95250"/>
       </COMP>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="a6bb6032-b7c9-4ce4-9eee-ad9cb746d41c"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="babce72d-e612-4e8e-9fa7-8f5c7b16a5af"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[4.0.00]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="togaf.modelVersion" mc="Infrastructure.TagType" uid="8e820c6c-b121-4db6-a02b-6762820c3092"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
