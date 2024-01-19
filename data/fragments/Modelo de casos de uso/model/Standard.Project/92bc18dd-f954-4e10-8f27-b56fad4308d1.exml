@@ -11,11 +11,6 @@
     <DEPENDENCIES>
       <COMP relation="Model">
         <COMPID name="DIAGRAMAS DE ACTIVIDAD" mc="Standard.Package" uid="38d4fa05-467d-4402-9c02-b9410ec69a3d"/>
-        <COMPID name="CASOS DE USO" mc="Standard.Package" uid="479c0308-f4b0-426e-94f9-f9497f370452"/>
-        <COMPID name="DIAGRAMA DE CLASES DE DISEÑO" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
-        <COMPID name="DIAGRAMAS SECUENCIA" mc="Standard.Package" uid="f6b15e01-1f7f-4596-b303-73abc898ec75"/>
-        <COMPID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
-        <COMPID name="ClasesUML" mc="Standard.Package" uid="998f3cc3-b4bd-439b-b268-d01042614725"/>
         <COMPID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="fd8fcd8b-98fa-4734-bc0a-e15b0a56b5d8"/>
         <COMPID name="DIAGRAMA DE COMPONENTES" mc="Standard.Package" uid="19925df9-da18-43bb-9cf7-a4e73e94f5ae"/>
       </COMP>
