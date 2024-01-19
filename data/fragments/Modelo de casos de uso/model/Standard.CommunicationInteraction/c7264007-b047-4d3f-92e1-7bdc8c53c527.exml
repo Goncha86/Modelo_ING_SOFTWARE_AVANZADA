@@ -55,12 +55,12 @@
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                     <OBJECT>
-                      <ID name="3. insertInformeBD()" mc="Standard.CommunicationMessage" uid="a091d3e4-f2fc-446c-a284-dbba4f7b7d6b"/>
+                      <ID name="3. Informe()" mc="Standard.CommunicationMessage" uid="a091d3e4-f2fc-446c-a284-dbba4f7b7d6b"/>
                       <ATTRIBUTES>
                         <ATT name="Argument"></ATT>
                         <ATT name="Sequence"></ATT>
                         <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"><![CDATA[3. insertInformeBD()]]></ATT>
+                        <ATT name="Name"><![CDATA[3. Informe()]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -324,9 +324,35 @@
             </LINK>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="3. insertBD()" mc="Standard.CommunicationChannel" uid="41cdbc64-8bea-4d73-a50f-98c9a1387e69"/>
+                <ID name="3.1. Informe() C()" mc="Standard.CommunicationChannel" uid="cc52c446-c04d-4236-b6e4-0b08d53eec98"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[3. insertBD()]]></ATT>
+                  <ATT name="Name"><![CDATA[3.1. Informe() C()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Informe" mc="Standard.CommunicationNode" uid="51f896f2-cf73-432d-b51b-6b464eb47c87"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Informe" mc="Standard.CommunicationNode" uid="51f896f2-cf73-432d-b51b-6b464eb47c87"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Informe]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="3.2. insertBD()" mc="Standard.CommunicationChannel" uid="a7246005-cac9-43c9-8e07-50e34d94504a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[3.2. insertBD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
