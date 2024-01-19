@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PROGRAMAR VUELOS DE DRONES" version="4">
+  <OBJECT>
+    <ID name="PROGRAMAR VUELOS DE DRONES" mc="Standard.Package" uid="21452669-9844-44ff-b386-d6831da4617a"/>
+    <PID name="DIAGRAMAS PATRONES" mc="Standard.Package" uid="04e4f544-c146-49d2-a567-083c3216f8c6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PROGRAMAR VUELOS DE DRONES]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EstrategiaVuelo" mc="Standard.Class" uid="d1cb0c0d-8a94-4028-8454-3e89be62f8f7"/>
+        <COMPID name="VueloConvencional" mc="Standard.Class" uid="a998e76d-ce30-4618-9128-020a976d22c8"/>
+        <COMPID name="VueloAlternativo" mc="Standard.Class" uid="3431509b-bec8-45d9-8f61-62521da02187"/>
+        <COMPID name="PlanificadorVuelo" mc="Standard.Class" uid="b777ebdd-4c38-4e7a-b30d-79e6801043c7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="PROGRAMAR VUELOS DE DRONES " mc="Standard.ClassDiagram" uid="b85e9b3f-cdf0-4935-a0e9-a5fe7376c9db"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

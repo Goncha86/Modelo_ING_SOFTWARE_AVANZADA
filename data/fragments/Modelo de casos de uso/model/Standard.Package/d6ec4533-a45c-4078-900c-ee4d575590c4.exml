@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SACAR INFORME DE PEDIDOS E IMPAGOS" version="4">
+  <OBJECT>
+    <ID name="SACAR INFORME DE PEDIDOS E IMPAGOS" mc="Standard.Package" uid="d6ec4533-a45c-4078-900c-ee4d575590c4"/>
+    <PID name="DIAGRAMAS PATRONES" mc="Standard.Package" uid="04e4f544-c146-49d2-a567-083c3216f8c6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SACAR INFORME DE PEDIDOS E IMPAGOS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PedidoImpagoSubject" mc="Standard.Class" uid="746d0a15-0166-43fa-ad26-d2f41fec487a"/>
+        <COMPID name="Observador" mc="Standard.Class" uid="e657d681-271f-486c-8d56-a81f51667a11"/>
+        <COMPID name="PedidoImpagoManager" mc="Standard.Class" uid="7cbb69e9-0728-4167-a42d-830140d2cc17"/>
+        <COMPID name="Comercial" mc="Standard.Class" uid="498010ab-f844-4ece-8bfb-18b9405fe619"/>
+        <COMPID name="Secretario" mc="Standard.Class" uid="d7d3a8d1-55f2-453e-a6e5-31fbc344262a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="SACAR INFORME DE PEDIDOS E IMPAGOS" mc="Standard.ClassDiagram" uid="d7f5a0c1-a54f-4663-b575-13dbeba36438"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

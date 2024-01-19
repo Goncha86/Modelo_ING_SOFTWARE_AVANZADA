@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DAR DE ALTA DRON" version="4">
+  <OBJECT>
+    <ID name="DAR DE ALTA DRON" mc="Standard.Package" uid="3986561d-4b90-42ea-b97e-094567bc6dcb"/>
+    <PID name="DIAGRAMAS PATRONES" mc="Standard.Package" uid="04e4f544-c146-49d2-a567-083c3216f8c6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DAR DE ALTA DRON]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ProductoDron" mc="Standard.Class" uid="9fa51235-2308-4480-a508-49cd13d2e031"/>
+        <COMPID name="Dron" mc="Standard.Class" uid="a6c3a4ff-3f04-4b49-a03f-b2861f450209"/>
+        <COMPID name="CreadorDron" mc="Standard.Class" uid="c0585782-a117-4b7d-b5bf-9a7109ca3cc2"/>
+        <COMPID name="CreadorDronConcreto" mc="Standard.Class" uid="a3738a23-92cd-480a-bc78-f47e1c24d015"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="2d717934-96c4-46ca-9885-5060b164ecfd"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DAR DE ALTA DRON" mc="Standard.ClassDiagram" uid="8d715ade-4838-4e29-ab4a-5185dd597958"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="6185dd9c-de4f-468d-b7ee-4a5dce33ad88"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
