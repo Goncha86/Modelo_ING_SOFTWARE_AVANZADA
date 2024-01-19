@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rack" version="4">
   <OBJECT>
     <ID name="Rack" mc="Standard.Package" uid="2941b999-e4bd-4c2a-9b5c-38cd816f4944"/>
-    <PID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="fd8fcd8b-98fa-4734-bc0a-e15b0a56b5d8"/>
+    <PID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="2898b3bc-fa3c-4325-aaec-6eead9b4acaf"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>

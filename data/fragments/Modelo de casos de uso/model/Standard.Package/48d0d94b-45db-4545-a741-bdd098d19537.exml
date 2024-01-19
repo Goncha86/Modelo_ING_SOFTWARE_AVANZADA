@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Technology Architecture" version="4">
   <OBJECT>
     <ID name="Technology Architecture" mc="Standard.Package" uid="48d0d94b-45db-4545-a741-bdd098d19537"/>
-    <PID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="fd8fcd8b-98fa-4734-bc0a-e15b0a56b5d8"/>
+    <PID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="2898b3bc-fa3c-4325-aaec-6eead9b4acaf"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>

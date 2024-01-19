@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Server" version="4">
   <OBJECT>
     <ID name="Server" mc="Standard.Package" uid="fb45d8e6-07d8-4715-8dfd-55ae1fd6e03c"/>
-    <PID name="DIAGRAMA DE COMPONENTES" mc="Standard.Package" uid="19925df9-da18-43bb-9cf7-a4e73e94f5ae"/>
+    <PID name="DIAGRAMA DE COMPONENTES" mc="Standard.Package" uid="e1969cd7-c481-40de-a84a-8003f9dbd1db"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>

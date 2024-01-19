@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Recepcion - Comercial" version="4">
   <OBJECT>
     <ID name="Recepcion - Comercial" mc="Standard.Node" uid="bc7ee0c1-47bc-4a5c-8b59-997e1e647d9b"/>
-    <PID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="fd8fcd8b-98fa-4734-bc0a-e15b0a56b5d8"/>
+    <PID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="2898b3bc-fa3c-4325-aaec-6eead9b4acaf"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>

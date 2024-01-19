@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Application.java" version="4">
   <OBJECT>
     <ID name="Application.java" mc="Standard.Package" uid="fc61e603-e697-4c0c-9900-e7bffd66ad37"/>
-    <PID name="DIAGRAMA DE COMPONENTES" mc="Standard.Package" uid="19925df9-da18-43bb-9cf7-a4e73e94f5ae"/>
+    <PID name="DIAGRAMA DE COMPONENTES" mc="Standard.Package" uid="e1969cd7-c481-40de-a84a-8003f9dbd1db"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>

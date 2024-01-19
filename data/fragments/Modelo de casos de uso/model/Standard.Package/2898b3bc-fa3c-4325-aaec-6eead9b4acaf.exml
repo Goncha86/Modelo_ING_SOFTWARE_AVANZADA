@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DIAGRAMA DE DESPLIEGUE" version="4">
+  <OBJECT>
+    <ID name="DIAGRAMA DE DESPLIEGUE" mc="Standard.Package" uid="2898b3bc-fa3c-4325-aaec-6eead9b4acaf"/>
+    <PID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DIAGRAMA DE DESPLIEGUE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Rack" mc="Standard.Package" uid="2941b999-e4bd-4c2a-9b5c-38cd816f4944"/>
+        <COMPID name="Technology Architecture" mc="Standard.Package" uid="48d0d94b-45db-4545-a741-bdd098d19537"/>
+        <COMPID name="Modem" mc="Standard.Node" uid="a4e5a327-62c3-4de9-8c42-589d644100d7"/>
+        <COMPID name="Impresora 1" mc="Standard.Node" uid="3fcb8f90-78bf-4741-a730-1dbcb1483e2a"/>
+        <COMPID name="Impresora 2" mc="Standard.Node" uid="f12f234d-a502-4384-8573-97ea5936db31"/>
+        <COMPID name="Recepcion - Comercial" mc="Standard.Node" uid="bc7ee0c1-47bc-4a5c-8b59-997e1e647d9b"/>
+        <COMPID name="Recepcion - Secretario" mc="Standard.Node" uid="497062a3-a4c8-44b3-94fd-a8b332d5239e"/>
+        <COMPID name="Taller - Controladora" mc="Standard.Node" uid="5d750b0d-413e-4720-a6b4-8a376910a907"/>
+        <COMPID name="Taller - Asistente" mc="Standard.Node" uid="2ec491b7-ead3-42ae-b92f-2bb8dd697454"/>
+        <COMPID name="Datacenter - Analista" mc="Standard.Node" uid="a3f8ed13-f63e-48a1-9d21-37c81030a538"/>
+        <COMPID name="Datacenter - Experto" mc="Standard.Node" uid="9ea9cc42-5dc7-4b58-9f77-66c26c78535e"/>
+        <COMPID name="Punto de Acceso WiFi" mc="Standard.Node" uid="a314d0a7-d099-4946-91c7-4146707a7ff6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DIAGRAMA DE DESPLIEGUE Deployment diagram" mc="Standard.DeploymentDiagram" uid="875e2fac-4962-4653-9b7d-638f592c2463"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
