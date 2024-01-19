@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Exportacion a XML" version="4">
+  <OBJECT>
+    <ID name="Exportacion a XML" mc="Standard.Package" uid="cdc1f5d5-e3a5-4556-bff7-ba92ba601010"/>
+    <PID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Exportacion a XML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="18b22d0b-5d2c-4bba-85cd-132b5326b0ab"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
