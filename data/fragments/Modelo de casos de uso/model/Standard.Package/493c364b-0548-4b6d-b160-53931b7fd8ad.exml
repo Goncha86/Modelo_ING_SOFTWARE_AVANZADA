@@ -20,7 +20,6 @@
         <COMPID name="Crear Clientes" mc="Standard.Package" uid="dd098d55-f594-43ad-96e4-e4bf343b2c87"/>
         <COMPID name="Registrar Pedido" mc="Standard.Package" uid="15fa7178-0bc8-4ab0-978e-6910cc45c6fc"/>
         <COMPID name="Informe clientes" mc="Standard.Package" uid="6a00fc48-ceb8-41f3-96b2-2b7d4e44a7b5"/>
-        <COMPID name="Exportacion a XML" mc="Standard.Package" uid="cdc1f5d5-e3a5-4556-bff7-ba92ba601010"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

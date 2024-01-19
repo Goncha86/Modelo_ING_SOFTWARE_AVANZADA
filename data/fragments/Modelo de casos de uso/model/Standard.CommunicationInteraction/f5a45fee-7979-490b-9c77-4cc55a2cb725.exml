@@ -20,7 +20,7 @@
           <DEPENDENCIES>
             <LINK relation="Represented">
               <REFOBJ>
-                <ID name="" mc="Standard.BindableInstance" uid="456504a3-2125-4c56-8010-4c0744471c94"/>
+                <ID name="" mc="Standard.BindableInstance" uid="fef49557-efc2-435b-bc0a-38b8461ce385"/>
               </REFOBJ>
             </LINK>
             <COMP relation="Started">
@@ -66,24 +66,24 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+          <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ControlRuta]]></ATT>
+            <ATT name="Name"><![CDATA[ControlPedido]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="Started">
               <OBJECT>
-                <ID name="2.3 listaRuta()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
+                <ID name="2.3 listaPedidos()" mc="Standard.CommunicationChannel" uid="7a9343f7-c2a4-4f77-a4a5-077d4e84c7e1"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.3 listaRuta()]]></ATT>
+                  <ATT name="Name"><![CDATA[2.3 listaPedidos()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="VistaExportaraXML" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+                      <ID name="VistaSacarInformeDePedidosEImpagos" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -111,7 +111,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="Ruta" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+                      <ID name="Pedido" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -130,28 +130,14 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
-              <OBJECT>
-                <ID name="2.4listaRuta()" mc="Standard.CommunicationChannel" uid="2ce3be1a-e491-43ae-9b9f-503de3207e8e"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4listaRuta()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="Ruta" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="VistaExportaraXML" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+          <ID name="VistaSacarInformeDePedidosEImpagos" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[VistaExportaraXML]]></ATT>
+            <ATT name="Name"><![CDATA[VistaSacarInformeDePedidosEImpagos]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -165,7 +151,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -179,7 +165,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -193,7 +179,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -207,21 +193,7 @@
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="2.5 exportarXML()" mc="Standard.CommunicationChannel" uid="283646da-a4e5-4bcc-92cb-92e20e1e4ecb"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.5 exportarXML()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
+                      <ID name="ControlPedido" mc="Standard.CommunicationNode" uid="92d5c775-f98f-4296-b33b-0cc5b1b66ab6"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -230,10 +202,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Ruta" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
+          <ID name="Pedido" mc="Standard.CommunicationNode" uid="9630dcda-9154-4d09-9b59-32492a30a3ae"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Ruta]]></ATT>
+            <ATT name="Name"><![CDATA[Pedido]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -242,20 +214,6 @@
                 <ID name="2.3.2 select_BD()" mc="Standard.CommunicationChannel" uid="d6f518dd-1dde-4408-9792-cf190f6d594f"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[2.3.2 select_BD()]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="2.4.1 select_BD()" mc="Standard.CommunicationChannel" uid="ab5bfb1b-31e7-4746-b4e5-894bde7a6c58"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.4.1 select_BD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
