@@ -284,15 +284,15 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="2.2 vistaProgramarVuelo" mc="Standard.CommunicationChannel" uid="b099ab63-8b9b-418c-840e-eb9528242553"/>
+                <ID name="2.2 vistaExportaraXML" mc="Standard.CommunicationChannel" uid="b099ab63-8b9b-418c-840e-eb9528242553"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[2.2 vistaProgramarVuelo]]></ATT>
+                  <ATT name="Name"><![CDATA[2.2 vistaExportaraXML]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="VistaProgramarVuelo" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
+                      <ID name="VistaExportaraXML" mc="Standard.CommunicationNode" uid="2a56fa3b-3d85-4781-bb2b-39aaf0cd257a"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
