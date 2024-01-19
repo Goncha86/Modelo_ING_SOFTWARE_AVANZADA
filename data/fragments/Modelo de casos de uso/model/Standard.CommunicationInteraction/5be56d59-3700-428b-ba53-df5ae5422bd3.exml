@@ -9,6 +9,86 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="" mc="Standard.CommunicationNode" uid="88d30b11-79d0-4421-bd5b-136f7cefdfc3"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="" mc="Standard.BindableInstance" uid="fef49557-efc2-435b-bc0a-38b8461ce385"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="vistaValidarUsuario" mc="Standard.CommunicationNode" uid="d957f3c3-6f81-4d48-afec-b3fbe7f3275f"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[vistaValidarUsuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ControlUsuario" mc="Standard.CommunicationNode" uid="a164233d-3d1c-456a-861a-75f450d8bf0f"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[ControlUsuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Usuario" mc="Standard.CommunicationNode" uid="3e86916c-db6b-4b32-9f79-a42a4bafc166"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Usuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="33400f18-af3d-426b-8c9a-7af282afa403"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[FachadaBD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="vistaMenuInicio" mc="Standard.CommunicationNode" uid="6c97a3b6-0b10-47a0-a6c3-f2364117caf9"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[vistaMenuInicio]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="vistaInformeCliente" mc="Standard.CommunicationNode" uid="c79e7524-17a2-43b8-aee9-969ae6e1c779"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[vistaInformeCliente]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ControlInforme" mc="Standard.CommunicationNode" uid="8f71acc8-5d7c-40a8-8c65-6a7be06c42f9"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[ControlInforme]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedCollaboration">
         <OBJECT>
           <ID name="locals" mc="Standard.Collaboration" uid="41a0af52-92e1-431f-a2e8-8ba315526f53"/>
@@ -26,6 +106,7 @@
       </COMP>
       <COMP relation="Product">
         <COMPID name="Communication Interaction Communication diagram" mc="Standard.CommunicationDiagram" uid="cb0e98c2-f190-4278-a0d7-e74e574c88a0"/>
+        <COMPID name="Informe Clientes" mc="Standard.CommunicationDiagram" uid="9c944697-7b43-4053-a219-4f278f54f15a"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
