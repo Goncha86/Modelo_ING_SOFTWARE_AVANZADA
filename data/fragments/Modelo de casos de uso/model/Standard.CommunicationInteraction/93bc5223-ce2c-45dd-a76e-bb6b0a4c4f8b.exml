@@ -1,0 +1,432 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Communication Interaction" version="4">
+  <OBJECT>
+    <ID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="93bc5223-ce2c-45dd-a76e-bb6b0a4c4f8b"/>
+    <PID name="Informe pedidos e impagos" mc="Standard.Package" uid="41f51bb9-c1ae-4400-9eaf-147ba72ba835"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Communication Interaction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="782c762a-ab4a-4f81-b96d-7213db4effdf"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[FachadaBD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Pago" mc="Standard.CommunicationNode" uid="05c21ef3-3543-4869-8a9a-588a2112723a"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Pago]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.4.2 select_BD()" mc="Standard.CommunicationChannel" uid="1827dd0c-4c98-4777-b3e8-defd4a86bb24"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4.2 select_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="79863e1f-fc3a-4b3c-b6b9-1a3ae77c20e9"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Comercial/Secretario" mc="Standard.CommunicationNode" uid="53e8e4e3-6e64-4140-9c78-39758bb245d8"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Comercial/Secretario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="Standard.BindableInstance" uid="d4b5f526-613e-4252-a8aa-7aafbdc6cbae"/>
+              </REFOBJ>
+            </LINK>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1.1 vistaValidarUsuario()" mc="Standard.CommunicationChannel" uid="ef783ca2-9cce-4001-ad68-457fd90cdabd"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.1 vistaValidarUsuario()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="1. validarUsuario()" mc="Standard.CommunicationMessage" uid="b40c57ba-d99e-4cc1-a8c8-839d432c7877"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[1. validarUsuario()]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="2. crearInformePedidoImpagos()" mc="Standard.CommunicationMessage" uid="091cfaed-dfe9-43d8-8874-fe0761938e4a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[2. crearInformePedidoImpagos()]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="afebfa60-0b24-4fa6-bbdf-bf6ac336c082"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="9f946732-d7b7-47e9-9634-99f129f54f4b"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="VistaValidarUsuario" mc="Standard.CommunicationNode" uid="afebfa60-0b24-4fa6-bbdf-bf6ac336c082"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[VistaValidarUsuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1.2 validarUsuario()" mc="Standard.CommunicationChannel" uid="adab086a-f317-446b-973b-449cc68e5592"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.2 validarUsuario()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ControlUsuario" mc="Standard.CommunicationNode" uid="a3c2282e-8d0d-42b7-b39d-62ecd4c79c6f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.1 vistaMenuInicio()" mc="Standard.CommunicationChannel" uid="95ded05f-b894-4067-94b3-210475508aa0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.1 vistaMenuInicio()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="562400fe-34cb-408d-9862-7247c9fa670a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ControlUsuario" mc="Standard.CommunicationNode" uid="a3c2282e-8d0d-42b7-b39d-62ecd4c79c6f"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[ControlUsuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1.3 validar()" mc="Standard.CommunicationChannel" uid="36f8bea6-5f83-4aed-be2e-873950720af3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.3 validar()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Usuario" mc="Standard.CommunicationNode" uid="31fe5dd3-d687-4fdc-aa51-895c5419181c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Usuario" mc="Standard.CommunicationNode" uid="31fe5dd3-d687-4fdc-aa51-895c5419181c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Usuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="1.4 select_BD()" mc="Standard.CommunicationChannel" uid="cd8ada72-7683-48a7-8483-a39e739cd331"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[1.4 select_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="b4556cee-152a-4d27-837c-9398bc20e7cb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="b4556cee-152a-4d27-837c-9398bc20e7cb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[FachadaBD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="VistaMenuInicio" mc="Standard.CommunicationNode" uid="562400fe-34cb-408d-9862-7247c9fa670a"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[VistaMenuInicio]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.2 vistaInformePedidosEimpagos()" mc="Standard.CommunicationChannel" uid="a4854be4-7c86-4440-8949-612b7cdf078f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.2 vistaInformePedidosEimpagos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="VistaSacarInformePedidosEImpagos" mc="Standard.CommunicationNode" uid="146ef55e-a864-4c1c-8152-a3122b8d0f0c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="VistaSacarInformePedidosEImpagos" mc="Standard.CommunicationNode" uid="146ef55e-a864-4c1c-8152-a3122b8d0f0c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[VistaSacarInformePedidosEImpagos]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.3 listaPedidos()" mc="Standard.CommunicationChannel" uid="c9c151ec-ecdb-4ee9-a3ed-b587274566c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.3 listaPedidos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="ae24b7dd-9e02-4283-9a7e-fef0876f636c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.4 listaImpagos()" mc="Standard.CommunicationChannel" uid="1fddaafb-f319-4d53-ac57-167731f619b7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4 listaImpagos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="ae24b7dd-9e02-4283-9a7e-fef0876f636c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.5 crearInformePedidosImpagos()" mc="Standard.CommunicationChannel" uid="97e37416-0882-4fb4-a444-eddf7756e9af"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.5 crearInformePedidosImpagos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="ae24b7dd-9e02-4283-9a7e-fef0876f636c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ControlRuta" mc="Standard.CommunicationNode" uid="ae24b7dd-9e02-4283-9a7e-fef0876f636c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[ControlRuta]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.4.1 listaImpagos()" mc="Standard.CommunicationChannel" uid="ffc9241a-57a1-49a7-948c-4fb9b677a546"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4.1 listaImpagos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Pago" mc="Standard.CommunicationNode" uid="ebe81b24-b251-42fc-a317-d126aefa650e"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="2.3.1 listaPedidos()" mc="Standard.CommunicationChannel" uid="357b1787-c8b6-4e11-a158-638ebd1d15da"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.3.1 listaPedidos()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Pedidos" mc="Standard.CommunicationNode" uid="365570b0-9e20-4172-9021-e4eb770e78dc"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Pago" mc="Standard.CommunicationNode" uid="ebe81b24-b251-42fc-a317-d126aefa650e"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Pago]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.4.2 select_BD()" mc="Standard.CommunicationChannel" uid="5ccdb746-abb4-4753-9934-33d06fe52aac"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.4.2 select_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="b4556cee-152a-4d27-837c-9398bc20e7cb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Pedidos" mc="Standard.CommunicationNode" uid="365570b0-9e20-4172-9021-e4eb770e78dc"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Pedidos]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="2.3.2 select_BD()" mc="Standard.CommunicationChannel" uid="3a788baf-934e-44b1-b945-5d5d0120b7c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[2.3.2 select_BD()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="FachadaBD" mc="Standard.CommunicationNode" uid="b4556cee-152a-4d27-837c-9398bc20e7cb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="c14cd3ad-58b8-4fed-9aa7-c399bd29e2c2"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="Standard.BindableInstance" uid="d4b5f526-613e-4252-a8aa-7aafbdc6cbae"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Comercial/Secretario" mc="Standard.Actor" uid="e7e6766d-3e14-4d93-80b0-5c0c85a2c428"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="InformePedidosEImpagos" mc="Standard.CommunicationDiagram" uid="9135c14f-75e7-4003-9917-85d75c198ee5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

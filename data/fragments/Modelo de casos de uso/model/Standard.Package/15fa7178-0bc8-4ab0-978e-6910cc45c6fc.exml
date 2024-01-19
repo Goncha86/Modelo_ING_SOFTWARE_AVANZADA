@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Registrar Pedido" version="4">
+  <OBJECT>
+    <ID name="Registrar Pedido" mc="Standard.Package" uid="15fa7178-0bc8-4ab0-978e-6910cc45c6fc"/>
+    <PID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Registrar Pedido]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="246ff832-8881-4b92-9be7-ff571e9e6348"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

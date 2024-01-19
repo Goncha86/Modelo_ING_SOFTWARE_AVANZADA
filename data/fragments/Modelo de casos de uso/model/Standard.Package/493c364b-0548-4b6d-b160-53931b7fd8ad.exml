@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DIAGRAMA DE COLABORACION" version="4">
+  <OBJECT>
+    <ID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
+    <PID name="Modelo de casos de uso" mc="Standard.Project" uid="92bc18dd-f954-4e10-8f27-b56fad4308d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DIAGRAMA DE COLABORACION]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Programar vuelos" mc="Standard.Package" uid="903f8e71-34c7-4522-b4b6-a38ba4c945cb"/>
+        <COMPID name="Informe pedidos e impagos" mc="Standard.Package" uid="41f51bb9-c1ae-4400-9eaf-147ba72ba835"/>
+        <COMPID name="Dar de Alta Dron" mc="Standard.Package" uid="19503ead-537d-4f69-883c-f439e0eaeac2"/>
+        <COMPID name="Crear Clientes" mc="Standard.Package" uid="dd098d55-f594-43ad-96e4-e4bf343b2c87"/>
+        <COMPID name="Registrar Pedido" mc="Standard.Package" uid="15fa7178-0bc8-4ab0-978e-6910cc45c6fc"/>
+        <COMPID name="Informe clientes" mc="Standard.Package" uid="6a00fc48-ceb8-41f3-96b2-2b7d4e44a7b5"/>
+        <COMPID name="Exportacion a XML" mc="Standard.Package" uid="cdc1f5d5-e3a5-4556-bff7-ba92ba601010"/>
+        <COMPID name="Crear Informe IA" mc="Standard.Package" uid="89512eb5-90ee-488e-9dc0-22b8208d3934"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

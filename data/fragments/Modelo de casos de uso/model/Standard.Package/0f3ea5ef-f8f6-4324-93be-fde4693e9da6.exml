@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Control" version="4">
+  <OBJECT>
+    <ID name="Control" mc="Standard.Package" uid="0f3ea5ef-f8f6-4324-93be-fde4693e9da6"/>
+    <PID name="DIAGRAMA DE CLASES DE DISEÑO" mc="Standard.Package" uid="52a8ad50-3aa3-4ad9-ac67-92ff798ca630"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Control]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Control: Usuario" mc="Standard.Class" uid="fc009a79-8021-40b6-931d-766643077847"/>
+        <COMPID name="Controlador: Clientes" mc="Standard.Class" uid="d1bed374-16a8-420f-9458-89bf4545aa90"/>
+        <COMPID name="Controlador: Informes" mc="Standard.Class" uid="d9d8dab5-51ef-4bf4-835d-c6a4eca1b7a6"/>
+        <COMPID name="Controlador: Drones" mc="Standard.Class" uid="d85c6cb4-7288-4f10-9a50-604db99f28c9"/>
+        <COMPID name="Control: Ruta" mc="Standard.Class" uid="fe81a2b0-b94f-407f-8767-b46521146cf0"/>
+        <COMPID name="Controlador: Pedidos" mc="Standard.Class" uid="05046b0f-bb46-44ec-8f1e-53e560d687d5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

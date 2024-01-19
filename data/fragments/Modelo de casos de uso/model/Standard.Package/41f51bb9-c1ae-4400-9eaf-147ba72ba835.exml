@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Informe pedidos e impagos" version="4">
+  <OBJECT>
+    <ID name="Informe pedidos e impagos" mc="Standard.Package" uid="41f51bb9-c1ae-4400-9eaf-147ba72ba835"/>
+    <PID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Informe pedidos e impagos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="93bc5223-ce2c-45dd-a76e-bb6b0a4c4f8b"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Comercial/Secretario" mc="Standard.Actor" uid="e7e6766d-3e14-4d93-80b0-5c0c85a2c428"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

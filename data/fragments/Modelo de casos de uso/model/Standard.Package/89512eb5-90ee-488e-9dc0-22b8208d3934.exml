@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Crear Informe IA" version="4">
+  <OBJECT>
+    <ID name="Crear Informe IA" mc="Standard.Package" uid="89512eb5-90ee-488e-9dc0-22b8208d3934"/>
+    <PID name="DIAGRAMA DE COLABORACION" mc="Standard.Package" uid="493c364b-0548-4b6d-b160-53931b7fd8ad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Crear Informe IA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="c7264007-b047-4d3f-92e1-7bdc8c53c527"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="CeresIA" mc="Standard.Actor" uid="993b8aa3-3cb4-4eef-89e1-33e542cd7742"/>
+        <COMPID name="Analista" mc="Standard.Actor" uid="a819b43e-1a47-4f8b-84ff-684b981874bd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
