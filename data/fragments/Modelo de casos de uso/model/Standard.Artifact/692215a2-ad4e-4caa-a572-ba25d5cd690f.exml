@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="XML Ruta" version="4">
+  <OBJECT>
+    <ID name="XML Ruta" mc="Standard.Artifact" uid="692215a2-ad4e-4caa-a572-ba25d5cd690f"/>
+    <PID name="Archivos Temporales" mc="Standard.Package" uid="3f7cc310-f9d3-4197-b65c-36fcec492106"/>
+    <ATTRIBUTES>
+      <ATT name="FileName"></ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[XML Ruta]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

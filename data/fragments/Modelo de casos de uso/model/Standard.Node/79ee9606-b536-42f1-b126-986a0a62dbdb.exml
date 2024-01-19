@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Printer" version="4">
+  <OBJECT>
+    <ID name="Printer" mc="Standard.Node" uid="79ee9606-b536-42f1-b126-986a0a62dbdb"/>
+    <PID name="Technology Architecture" mc="Standard.Package" uid="48d0d94b-45db-4545-a741-bdd098d19537"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Printer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="DeploymentWorkStation" mc="Infrastructure.Stereotype" uid="d209ae22-ab93-11df-9861-0014224f9977"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
